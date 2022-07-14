@@ -6,6 +6,6 @@ After the announcement of [Atom's sunset](https://github.blog/2022-06-08-sunsett
 
 However, due to differences in long-term goals for the editor, a new version was born: Pulsar.
 
-Pulsar aims to not only reach feature parity with the original Atom, but to bring Pulsar into the 21st century, updating the underlying architecture and supporting modern features.
+Pulsar aims to not only reach feature parity with the original Atom, but to bring Pulsar into the 21st century by updating the underlying architecture and supporting modern features.
 
 With many new features on the roadmap, once Pulsar is stable, it will be a true, Community-Based, Hackable, Text Editor.
