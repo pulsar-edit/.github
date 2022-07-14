@@ -4,7 +4,7 @@ Pulsar, or sometimes referred to as Pulsar-Edit is a new image of the beloved 'H
 
 After the announcement of [Atom's sunset](https://github.blog/2022-06-08-sunsetting-atom/), the community came together to keep Atom alive via the longstanding fork [Atom-Community](https://github.com/atom-community/atom).
 
-Although due to the difference in goals for the editor long term a new version was born Pulsar.
+However, due to differences in long-term goals for the editor, a new version was born: Pulsar.
 
 Pulsar aims to not only reach feature parity with the original Atom, but to bring Pulsar into the 21st century, updating the underlying architecture and supporting modern features.
 
