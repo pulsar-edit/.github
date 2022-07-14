@@ -8,4 +8,4 @@ However, due to differences in long-term goals for the editor, a new version was
 
 Pulsar aims to not only reach feature parity with the original Atom, but to bring Pulsar into the 21st century, updating the underlying architecture and supporting modern features.
 
-With many new features intended to come once things are stable Pulsar will be a true Community-Based Hackable Text Editor.
+With many new features on the roadmap, once Pulsar is stable, it will be a true, Community-Based, Hackable, Text Editor.
