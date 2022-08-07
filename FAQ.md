@@ -10,7 +10,7 @@ So with the above said if you have questions about Pulsar, or for the team worki
 
 # Why Split with Atom-Community, isn't more effort on one project better than two?
 
-While more effort on a single project is correct, since we are all volunteers here effort on a project you beleive in is most important. 
+While more effort on a single project is correct, since we are all volunteers here effort on a project you believe in is most important. 
 
 Due to management, and goal differences a split was needed, since otherwise the team working on a successor of Atom would no longer be working together on any successor. 
 
