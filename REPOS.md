@@ -2,6 +2,9 @@
 
 With a codebase this large, it may be helpful for newcomers, and devs to an unfamiliar section of the codebase, to have a collection of what repo does what. And where is it.
 
+_Please note that GitHub automatically makes a Table of Contents when viewing Markdown files, which you can use by clicking on this -> ![image](https://user-images.githubusercontent.com/7829451/183424327-d4ff6893-fe81-4d09-9a60-024ed13ccfd9.png) button. It is located to the top left of the document._
+
+
 ## Core Editor:
 
 | Name | Latest Commit | Latest Tag | Issues | License | Primary Language | Stars | Description |
