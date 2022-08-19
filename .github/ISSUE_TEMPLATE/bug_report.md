@@ -15,7 +15,7 @@ Do you want to ask a question? Are you looking for support? The Pulsar Discussio
     * Have you reproduced the issue in safe mode? : <https://flight-manual.atom.io/hacking-atom/sections/debugging/#using-safe-mode>
     * Have you used the debugging guide to fix any issues? : <https://flight-manual.atom.io/hacking-atom/sections/debugging/>
     * Checked our FAQs to make sure your question isn't answered there? : <https://discuss.atom.io/c/faq>
-    *Does your issue already exist? : <https://github.com/issues?utf8=✓&q=is%3Aissue+user%3Apulsar>
+    * Does your issue already exist? : <https://github.com/issues?utf8=✓&q=is%3Aissue+user%3Apulsar>
     * Checked that there is not already an Pulsar package that provides the described functionality: <https://pulsar-edit.com/packages>
 
 ### Description
