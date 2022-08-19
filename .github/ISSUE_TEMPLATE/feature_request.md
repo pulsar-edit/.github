@@ -24,7 +24,7 @@ Also note that the Pulsar team has finite resources so it's unlikely that we'll 
 
 <!-- Why are we doing this? What use cases does it support? What is the expected outcome? -->
 
-## Describe alternatives you've considered
+## Are there any other possible alternatives? (Is this really the best solution or only option to add this feature? Or could it be a plugin?)
 
 <!-- A clear and concise description of the alternative solutions you've considered. Be sure to explain why Atom's existing customizability isn't suitable for this feature. -->
 

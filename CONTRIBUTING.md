@@ -36,7 +36,7 @@ This project and everyone participating in it is governed by the [Pulsar Code of
 
 ## I don't want to read this whole thing I just have a question!!!
 
-> **Note:** [Please don't file an issue to ask a question.](https://github.com/orgs/pulsar-edit/discussions) You'll get faster results by using the resources below.
+> **Note:** [Please don't file an issue to ask a question.](https://discord.gg/7aEbB9dGRT) You'll get faster results by using the resources below.
 
 Feel free to contribute to the Pulsar-Edit Discussions to talk with the community, and have questions answered. Or we also have a Discord server where questions can be asked directly with the maintainers.
 
