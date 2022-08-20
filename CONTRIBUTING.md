@@ -335,6 +335,7 @@ Please open an issue on `pulsar-edit/pulsar` if you have suggestions for new lab
 | `invalid` | [search][search-pulsar-repo-label-invalid] | [search][search-pulsar-org-label-invalid] | Issues which aren't valid (e.g. user errors). |
 | `package-idea` | [search][search-pulsar-repo-label-package-idea] | [search][search-pulsar-org-label-package-idea] | Feature request which might be good candidates for new packages, instead of extending Pulsar or core Pulsar packages. |
 | `wrong-repo` | [search][search-pulsar-repo-label-wrong-repo] | [search][search-pulsar-org-label-wrong-repo] | Issues reported on the wrong repository (e.g. a bug related to the [Settings View package](https://github.com/pulsar-edit/settings-view) was reported on [Pulsar core](https://github.com/pulsar-edit/pulsar)). |
+| `rebrand` | [search][search-pulsar-repo-label-rebrand] | [search][search-pulsar-org-label-rebrand] | Related to the rebrand effort across the org. |
 
 #### Topic Categories
 
@@ -379,6 +380,8 @@ Please open an issue on `pulsar-edit/pulsar` if you have suggestions for new lab
 | `requires-changes` | [search][search-pulsar-repo-label-requires-changes] | [search][search-pulsar-org-label-requires-changes] | Pull requests which need to be updated based on review comments and then reviewed again. |
 | `needs-testing` | [search][search-pulsar-repo-label-needs-testing] | [search][search-pulsar-org-label-needs-testing] | Pull requests which need manual testing. |
 
+[search-pulsar-repo-label-rebrand]: https://github.com/search?q=is%3Aoepn+is%3Aissue+repo%3Apulsar-edit%2Fpular+label%3Arebrand
+[search-pulsar-org-label-rebrand]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Arebrand
 [search-pulsar-repo-label-enhancement]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aenhancement
 [search-pulsar-org-label-enhancement]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aenhancement
 [search-pulsar-repo-label-bug]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Abug
