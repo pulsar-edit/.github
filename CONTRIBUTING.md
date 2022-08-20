@@ -321,152 +321,152 @@ Please open an issue on `pulsar-edit/pulsar` if you have suggestions for new lab
 
 | Label name | `pulsar-edit/pulsar` :mag_right: | `pulsar-edit`‑org :mag_right: | Description |
 | --- | --- | --- | --- |
-| `enhancement` | [search][search-atom-repo-label-enhancement] | [search][search-atom-org-label-enhancement] | Feature requests. |
-| `bug` | [search][search-atom-repo-label-bug] | [search][search-atom-org-label-bug] | Confirmed bugs or reports that are very likely to be bugs. |
-| `question` | [search][search-atom-repo-label-question] | [search][search-atom-org-label-question] | Questions more than bug reports or feature requests (e.g. how do I do X). |
-| `feedback` | [search][search-atom-repo-label-feedback] | [search][search-atom-org-label-feedback] | General feedback more than bug reports or feature requests. |
-| `help-wanted` | [search][search-atom-repo-label-help-wanted] | [search][search-atom-org-label-help-wanted] | The Atom core team would appreciate help from the community in resolving these issues. |
-| `beginner` | [search][search-atom-repo-label-beginner] | [search][search-atom-org-label-beginner] | Less complex issues which would be good first issues to work on for users who want to contribute to Atom. |
-| `more-information-needed` | [search][search-atom-repo-label-more-information-needed] | [search][search-atom-org-label-more-information-needed] | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce). |
-| `needs-reproduction` | [search][search-atom-repo-label-needs-reproduction] | [search][search-atom-org-label-needs-reproduction] | Likely bugs, but haven't been reliably reproduced. |
-| `blocked` | [search][search-atom-repo-label-blocked] | [search][search-atom-org-label-blocked] | Issues blocked on other issues. |
-| `duplicate` | [search][search-atom-repo-label-duplicate] | [search][search-atom-org-label-duplicate] | Issues which are duplicates of other issues, i.e. they have been reported before. |
-| `wontfix` | [search][search-atom-repo-label-wontfix] | [search][search-atom-org-label-wontfix] | The Atom core team has decided not to fix these issues for now, either because they're working as intended or for some other reason. |
-| `invalid` | [search][search-atom-repo-label-invalid] | [search][search-atom-org-label-invalid] | Issues which aren't valid (e.g. user errors). |
-| `package-idea` | [search][search-atom-repo-label-package-idea] | [search][search-atom-org-label-package-idea] | Feature request which might be good candidates for new packages, instead of extending Pulsar or core Pulsar packages. |
-| `wrong-repo` | [search][search-atom-repo-label-wrong-repo] | [search][search-atom-org-label-wrong-repo] | Issues reported on the wrong repository (e.g. a bug related to the [Settings View package](https://github.com/pulsar-edit/settings-view) was reported on [Pulsar core](https://github.com/pulsar-edit/pulsar)). |
+| `enhancement` | [search][search-pulsar-repo-label-enhancement] | [search][search-pulsar-org-label-enhancement] | Feature requests. |
+| `bug` | [search][search-pulsar-repo-label-bug] | [search][search-pulsar-org-label-bug] | Confirmed bugs or reports that are very likely to be bugs. |
+| `question` | [search][search-pulsar-repo-label-question] | [search][search-pulsar-org-label-question] | Questions more than bug reports or feature requests (e.g. how do I do X). |
+| `feedback` | [search][search-pulsar-repo-label-feedback] | [search][search-pulsar-org-label-feedback] | General feedback more than bug reports or feature requests. |
+| `help-wanted` | [search][search-pulsar-repo-label-help-wanted] | [search][search-pulsar-org-label-help-wanted] | The Pulsar core team would appreciate help from the community in resolving these issues. |
+| `beginner` | [search][search-pulsar-repo-label-beginner] | [search][search-pulsar-org-label-beginner] | Less complex issues which would be good first issues to work on for users who want to contribute to Pulsar. |
+| `more-information-needed` | [search][search-pulsar-repo-label-more-information-needed] | [search][search-pulsar-org-label-more-information-needed] | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce). |
+| `needs-reproduction` | [search][search-pulsar-repo-label-needs-reproduction] | [search][search-pulsar-org-label-needs-reproduction] | Likely bugs, but haven't been reliably reproduced. |
+| `blocked` | [search][search-pulsar-repo-label-blocked] | [search][search-pulsar-org-label-blocked] | Issues blocked on other issues. |
+| `duplicate` | [search][search-pulsar-repo-label-duplicate] | [search][search-pulsar-org-label-duplicate] | Issues which are duplicates of other issues, i.e. they have been reported before. |
+| `wontfix` | [search][search-pulsar-repo-label-wontfix] | [search][search-pulsar-org-label-wontfix] | The Pulsar core team has decided not to fix these issues for now, either because they're working as intended or for some other reason. |
+| `invalid` | [search][search-pulsar-repo-label-invalid] | [search][search-pulsar-org-label-invalid] | Issues which aren't valid (e.g. user errors). |
+| `package-idea` | [search][search-pulsar-repo-label-package-idea] | [search][search-pulsar-org-label-package-idea] | Feature request which might be good candidates for new packages, instead of extending Pulsar or core Pulsar packages. |
+| `wrong-repo` | [search][search-pulsar-repo-label-wrong-repo] | [search][search-pulsar-org-label-wrong-repo] | Issues reported on the wrong repository (e.g. a bug related to the [Settings View package](https://github.com/pulsar-edit/settings-view) was reported on [Pulsar core](https://github.com/pulsar-edit/pulsar)). |
 
 #### Topic Categories
 
-| Label name | `pulsar-edit/pulsar` :mag_right: | `pulsar`‑org :mag_right: | Description |
+| Label name | `pulsar-edit/pulsar` :mag_right: | `pulsar-edit`‑org :mag_right: | Description |
 | --- | --- | --- | --- |
-| `windows` | [search][search-atom-repo-label-windows] | [search][search-atom-org-label-windows] | Related to Atom running on Windows. |
-| `linux` | [search][search-atom-repo-label-linux] | [search][search-atom-org-label-linux] | Related to Atom running on Linux. |
-| `mac` | [search][search-atom-repo-label-mac] | [search][search-atom-org-label-mac] | Related to Atom running on macOS. |
-| `documentation` | [search][search-atom-repo-label-documentation] | [search][search-atom-org-label-documentation] | Related to any type of documentation (e.g. [API documentation](https://atom.io/docs/api/latest/) and the [flight manual](https://flight-manual.atom.io/)). |
-| `performance` | [search][search-atom-repo-label-performance] | [search][search-atom-org-label-performance] | Related to performance. |
-| `security` | [search][search-atom-repo-label-security] | [search][search-atom-org-label-security] | Related to security. |
-| `ui` | [search][search-atom-repo-label-ui] | [search][search-atom-org-label-ui] | Related to visual design. |
-| `api` | [search][search-atom-repo-label-api] | [search][search-atom-org-label-api] | Related to Atom's public APIs. |
-| `uncaught-exception` | [search][search-atom-repo-label-uncaught-exception] | [search][search-atom-org-label-uncaught-exception] | Issues about uncaught exceptions, normally created from the [Notifications package](https://github.com/atom/notifications). |
-| `crash` | [search][search-atom-repo-label-crash] | [search][search-atom-org-label-crash] | Reports of Atom completely crashing. |
-| `auto-indent` | [search][search-atom-repo-label-auto-indent] | [search][search-atom-org-label-auto-indent] | Related to auto-indenting text. |
-| `encoding` | [search][search-atom-repo-label-encoding] | [search][search-atom-org-label-encoding] | Related to character encoding. |
-| `network` | [search][search-atom-repo-label-network] | [search][search-atom-org-label-network] | Related to network problems or working with remote files (e.g. on network drives). |
-| `git` | [search][search-atom-repo-label-git] | [search][search-atom-org-label-git] | Related to Git functionality (e.g. problems with gitignore files or with showing the correct file status). |
+| `windows` | [search][search-pulsar-repo-label-windows] | [search][search-pulsar-org-label-windows] | Related to Pulsar running on Windows. |
+| `linux` | [search][search-pulsar-repo-label-linux] | [search][search-pulsar-org-label-linux] | Related to Pulsar running on Linux. |
+| `mac` | [search][search-pulsar-repo-label-mac] | [search][search-pulsar-org-label-mac] | Related to Pulsar running on macOS. |
+| `documentation` | [search][search-pulsar-repo-label-documentation] | [search][search-pulsar-org-label-documentation] | Related to any type of documentation (e.g. [API documentation](https://atom.io/docs/api/latest/) and the [flight manual](https://flight-manual.atom.io/)). |
+| `performance` | [search][search-pulsar-repo-label-performance] | [search][search-pulsar-org-label-performance] | Related to performance. |
+| `security` | [search][search-pulsar-repo-label-security] | [search][search-pulsar-org-label-security] | Related to security. |
+| `ui` | [search][search-pulsar-repo-label-ui] | [search][search-pulsar-org-label-ui] | Related to visual design. |
+| `api` | [search][search-pulsar-repo-label-api] | [search][search-pulsar-org-label-api] | Related to Pulsar's public APIs. |
+| `uncaught-exception` | [search][search-pulsar-repo-label-uncaught-exception] | [search][search-pulsar-org-label-uncaught-exception] | Issues about uncaught exceptions, normally created from the [Notifications package](https://github.com/pulsar-edit/notifications). |
+| `crash` | [search][search-pulsar-repo-label-crash] | [search][search-pulsar-org-label-crash] | Reports of Pulsar completely crashing. |
+| `auto-indent` | [search][search-pulsar-repo-label-auto-indent] | [search][search-pulsar-org-label-auto-indent] | Related to auto-indenting text. |
+| `encoding` | [search][search-pulsar-repo-label-encoding] | [search][search-pulsar-org-label-encoding] | Related to character encoding. |
+| `network` | [search][search-pulsar-repo-label-network] | [search][search-pulsar-org-label-network] | Related to network problems or working with remote files (e.g. on network drives). |
+| `git` | [search][search-pulsar-repo-label-git] | [search][search-pulsar-org-label-git] | Related to Git functionality (e.g. problems with gitignore files or with showing the correct file status). |
 
 #### `pulsar-edit/pulsar` Topic Categories
 
-| Label name | `atom/atom` :mag_right: | `atom`‑org :mag_right: | Description |
+| Label name | `pulsar-edit/pulsar` :mag_right: | `pulsar-edit`‑org :mag_right: | Description |
 | --- | --- | --- | --- |
-| `editor-rendering` | [search][search-atom-repo-label-editor-rendering] | [search][search-atom-org-label-editor-rendering] | Related to language-independent aspects of rendering text (e.g. scrolling, soft wrap, and font rendering). |
-| `build-error` | [search][search-atom-repo-label-build-error] | [search][search-atom-org-label-build-error] | Related to problems with building Atom from source. |
-| `error-from-pathwatcher` | [search][search-atom-repo-label-error-from-pathwatcher] | [search][search-atom-org-label-error-from-pathwatcher] | Related to errors thrown by the [pathwatcher library](https://github.com/atom/node-pathwatcher). |
-| `error-from-save` | [search][search-atom-repo-label-error-from-save] | [search][search-atom-org-label-error-from-save] | Related to errors thrown when saving files. |
-| `error-from-open` | [search][search-atom-repo-label-error-from-open] | [search][search-atom-org-label-error-from-open] | Related to errors thrown when opening files. |
-| `installer` | [search][search-atom-repo-label-installer] | [search][search-atom-org-label-installer] | Related to the Atom installers for different OSes. |
-| `auto-updater` | [search][search-atom-repo-label-auto-updater] | [search][search-atom-org-label-auto-updater] | Related to the auto-updater for different OSes. |
-| `deprecation-help` | [search][search-atom-repo-label-deprecation-help] | [search][search-atom-org-label-deprecation-help] | Issues for helping package authors remove usage of deprecated APIs in packages. |
-| `electron` | [search][search-atom-repo-label-electron] | [search][search-atom-org-label-electron] | Issues that require changes to [Electron](https://electron.atom.io) to fix or implement. |
+| `editor-rendering` | [search][search-pulsar-repo-label-editor-rendering] | [search][search-pulsar-org-label-editor-rendering] | Related to language-independent aspects of rendering text (e.g. scrolling, soft wrap, and font rendering). |
+| `build-error` | [search][search-pulsar-repo-label-build-error] | [search][search-pulsar-org-label-build-error] | Related to problems with building Pulsar from source. |
+| `error-from-pathwatcher` | [search][search-pulsar-repo-label-error-from-pathwatcher] | [search][search-pulsar-org-label-error-from-pathwatcher] | Related to errors thrown by the [pathwatcher library](https://github.com/atom/node-pathwatcher). |
+| `error-from-save` | [search][search-pulsar-repo-label-error-from-save] | [search][search-pulsar-org-label-error-from-save] | Related to errors thrown when saving files. |
+| `error-from-open` | [search][search-pulsar-repo-label-error-from-open] | [search][search-pulsar-org-label-error-from-open] | Related to errors thrown when opening files. |
+| `installer` | [search][search-pulsar-repo-label-installer] | [search][search-pulsar-org-label-installer] | Related to the Pulsar installers for different OSes. |
+| `auto-updater` | [search][search-pulsar-repo-label-auto-updater] | [search][search-pulsar-org-label-auto-updater] | Related to the auto-updater for different OSes. |
+| `deprecation-help` | [search][search-pulsar-repo-label-deprecation-help] | [search][search-pulsar-org-label-deprecation-help] | Issues for helping package authors remove usage of deprecated APIs in packages. |
+| `electron` | [search][search-pulsar-repo-label-electron] | [search][search-pulsar-org-label-electron] | Issues that require changes to [Electron](https://electron.atom.io) to fix or implement. |
 
 #### Pull Request Labels
 
-| Label name | `atom/atom` :mag_right: | `atom`‑org :mag_right: | Description
+| Label name | `pulsar-edit/pulsar` :mag_right: | `pulsar-edit`‑org :mag_right: | Description
 | --- | --- | --- | --- |
-| `work-in-progress` | [search][search-atom-repo-label-work-in-progress] | [search][search-atom-org-label-work-in-progress] | Pull requests which are still being worked on, more changes will follow. |
-| `needs-review` | [search][search-atom-repo-label-needs-review] | [search][search-atom-org-label-needs-review] | Pull requests which need code review, and approval from maintainers or Atom core team. |
-| `under-review` | [search][search-atom-repo-label-under-review] | [search][search-atom-org-label-under-review] | Pull requests being reviewed by maintainers or Atom core team. |
-| `requires-changes` | [search][search-atom-repo-label-requires-changes] | [search][search-atom-org-label-requires-changes] | Pull requests which need to be updated based on review comments and then reviewed again. |
-| `needs-testing` | [search][search-atom-repo-label-needs-testing] | [search][search-atom-org-label-needs-testing] | Pull requests which need manual testing. |
+| `work-in-progress` | [search][search-pulsar-repo-label-work-in-progress] | [search][search-pulsar-org-label-work-in-progress] | Pull requests which are still being worked on, more changes will follow. |
+| `needs-review` | [search][search-pulsar-repo-label-needs-review] | [search][search-pulsar-org-label-needs-review] | Pull requests which need code review, and approval from maintainers or Pulsar core team. |
+| `under-review` | [search][search-pulsar-repo-label-under-review] | [search][search-pulsar-org-label-under-review] | Pull requests being reviewed by maintainers or Pulsar core team. |
+| `requires-changes` | [search][search-pulsar-repo-label-requires-changes] | [search][search-pulsar-org-label-requires-changes] | Pull requests which need to be updated based on review comments and then reviewed again. |
+| `needs-testing` | [search][search-pulsar-repo-label-needs-testing] | [search][search-pulsar-org-label-needs-testing] | Pull requests which need manual testing. |
 
-[search-atom-repo-label-enhancement]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Aenhancement
-[search-atom-org-label-enhancement]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aenhancement
-[search-atom-repo-label-bug]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Abug
-[search-atom-org-label-bug]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Abug
-[search-atom-repo-label-question]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Aquestion
-[search-atom-org-label-question]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aquestion
-[search-atom-repo-label-feedback]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Afeedback
-[search-atom-org-label-feedback]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Afeedback
-[search-atom-repo-label-help-wanted]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Ahelp-wanted
-[search-atom-org-label-help-wanted]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Ahelp-wanted
-[search-atom-repo-label-beginner]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Abeginner
-[search-atom-org-label-beginner]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Abeginner
-[search-atom-repo-label-more-information-needed]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Amore-information-needed
-[search-atom-org-label-more-information-needed]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Amore-information-needed
-[search-atom-repo-label-needs-reproduction]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Aneeds-reproduction
-[search-atom-org-label-needs-reproduction]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aneeds-reproduction
-[search-atom-repo-label-triage-help-needed]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Atriage-help-needed
-[search-atom-org-label-triage-help-needed]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Atriage-help-needed
-[search-atom-repo-label-windows]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Awindows
-[search-atom-org-label-windows]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Awindows
-[search-atom-repo-label-linux]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Alinux
-[search-atom-org-label-linux]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Alinux
-[search-atom-repo-label-mac]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Amac
-[search-atom-org-label-mac]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Amac
-[search-atom-repo-label-documentation]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Adocumentation
-[search-atom-org-label-documentation]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Adocumentation
-[search-atom-repo-label-performance]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Aperformance
-[search-atom-org-label-performance]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aperformance
-[search-atom-repo-label-security]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Asecurity
-[search-atom-org-label-security]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Asecurity
-[search-atom-repo-label-ui]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Aui
-[search-atom-org-label-ui]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aui
-[search-atom-repo-label-api]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Aapi
-[search-atom-org-label-api]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aapi
-[search-atom-repo-label-crash]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Acrash
-[search-atom-org-label-crash]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Acrash
-[search-atom-repo-label-auto-indent]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Aauto-indent
-[search-atom-org-label-auto-indent]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aauto-indent
-[search-atom-repo-label-encoding]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Aencoding
-[search-atom-org-label-encoding]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aencoding
-[search-atom-repo-label-network]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Anetwork
-[search-atom-org-label-network]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Anetwork
-[search-atom-repo-label-uncaught-exception]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Auncaught-exception
-[search-atom-org-label-uncaught-exception]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Auncaught-exception
-[search-atom-repo-label-git]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Agit
-[search-atom-org-label-git]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Agit
-[search-atom-repo-label-blocked]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Ablocked
-[search-atom-org-label-blocked]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Ablocked
-[search-atom-repo-label-duplicate]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Aduplicate
-[search-atom-org-label-duplicate]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aduplicate
-[search-atom-repo-label-wontfix]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Awontfix
-[search-atom-org-label-wontfix]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Awontfix
-[search-atom-repo-label-invalid]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Ainvalid
-[search-atom-org-label-invalid]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Ainvalid
-[search-atom-repo-label-package-idea]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Apackage-idea
-[search-atom-org-label-package-idea]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Apackage-idea
-[search-atom-repo-label-wrong-repo]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Awrong-repo
-[search-atom-org-label-wrong-repo]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Awrong-repo
-[search-atom-repo-label-editor-rendering]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Aeditor-rendering
-[search-atom-org-label-editor-rendering]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aeditor-rendering
-[search-atom-repo-label-build-error]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Abuild-error
-[search-atom-org-label-build-error]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Abuild-error
-[search-atom-repo-label-error-from-pathwatcher]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Aerror-from-pathwatcher
-[search-atom-org-label-error-from-pathwatcher]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aerror-from-pathwatcher
-[search-atom-repo-label-error-from-save]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Aerror-from-save
-[search-atom-org-label-error-from-save]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aerror-from-save
-[search-atom-repo-label-error-from-open]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Aerror-from-open
-[search-atom-org-label-error-from-open]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aerror-from-open
-[search-atom-repo-label-installer]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Ainstaller
-[search-atom-org-label-installer]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Ainstaller
-[search-atom-repo-label-auto-updater]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Aauto-updater
-[search-atom-org-label-auto-updater]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aauto-updater
-[search-atom-repo-label-deprecation-help]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Aatom%2Fatom+label%3Adeprecation-help
-[search-atom-org-label-deprecation-help]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Adeprecation-help
-[search-atom-repo-label-electron]: https://github.com/search?q=is%3Aissue+repo%3Aatom%2Fatom+is%3Aopen+label%3Aelectron
-[search-atom-org-label-electron]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aatom+label%3Aelectron
-[search-atom-repo-label-work-in-progress]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Aatom%2Fatom+label%3Awork-in-progress
-[search-atom-org-label-work-in-progress]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Aatom+label%3Awork-in-progress
-[search-atom-repo-label-needs-review]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Aatom%2Fatom+label%3Aneeds-review
-[search-atom-org-label-needs-review]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Aatom+label%3Aneeds-review
-[search-atom-repo-label-under-review]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Aatom%2Fatom+label%3Aunder-review
-[search-atom-org-label-under-review]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Aatom+label%3Aunder-review
-[search-atom-repo-label-requires-changes]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Aatom%2Fatom+label%3Arequires-changes
-[search-atom-org-label-requires-changes]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Aatom+label%3Arequires-changes
-[search-atom-repo-label-needs-testing]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Aatom%2Fatom+label%3Aneeds-testing
-[search-atom-org-label-needs-testing]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Aatom+label%3Aneeds-testing
+[search-pulsar-repo-label-enhancement]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aenhancement
+[search-pulsar-org-label-enhancement]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aenhancement
+[search-pulsar-repo-label-bug]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Abug
+[search-pulsar-org-label-bug]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Abug
+[search-pulsar-repo-label-question]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aquestion
+[search-pulsar-org-label-question]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aquestion
+[search-pulsar-repo-label-feedback]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Afeedback
+[search-pulsar-org-label-feedback]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Afeedback
+[search-pulsar-repo-label-help-wanted]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Ahelp-wanted
+[search-pulsar-org-label-help-wanted]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Ahelp-wanted
+[search-pulsar-repo-label-beginner]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Abeginner
+[search-pulsar-org-label-beginner]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Abeginner
+[search-pulsar-repo-label-more-information-needed]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Amore-information-needed
+[search-pulsar-org-label-more-information-needed]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Amore-information-needed
+[search-pulsar-repo-label-needs-reproduction]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aneeds-reproduction
+[search-pulsar-org-label-needs-reproduction]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aneeds-reproduction
+[search-pulsar-repo-label-triage-help-needed]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Atriage-help-needed
+[search-pulsar-org-label-triage-help-needed]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Atriage-help-needed
+[search-pulsar-repo-label-windows]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Awindows
+[search-pulsar-org-label-windows]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Awindows
+[search-pulsar-repo-label-linux]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Alinux
+[search-pulsar-org-label-linux]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Alinux
+[search-pulsar-repo-label-mac]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Amac
+[search-pulsar-org-label-mac]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Amac
+[search-pulsar-repo-label-documentation]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar%2Fpulsar+label%3Adocumentation
+[search-pulsar-org-label-documentation]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Adocumentation
+[search-pulsar-repo-label-performance]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aperformance
+[search-pulsar-org-label-performance]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aperformance
+[search-pulsar-repo-label-security]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Asecurity
+[search-pulsar-org-label-security]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Asecurity
+[search-pulsar-repo-label-ui]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aui
+[search-pulsar-org-label-ui]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aui
+[search-pulsar-repo-label-api]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aapi
+[search-pulsar-org-label-api]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aapi
+[search-pulsar-repo-label-crash]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Acrash
+[search-pulsar-org-label-crash]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Acrash
+[search-pulsar-repo-label-auto-indent]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aauto-indent
+[search-pulsar-org-label-auto-indent]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aauto-indent
+[search-pulsar-repo-label-encoding]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aencoding
+[search-pulsar-org-label-encoding]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aencoding
+[search-pulsar-repo-label-network]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Anetwork
+[search-pulsar-org-label-network]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Anetwork
+[search-pulsar-repo-label-uncaught-exception]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Auncaught-exception
+[search-pulsar-org-label-uncaught-exception]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Auncaught-exception
+[search-pulsar-repo-label-git]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Agit
+[search-pulsar-org-label-git]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Agit
+[search-pulsar-repo-label-blocked]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Ablocked
+[search-pulsar-org-label-blocked]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Ablocked
+[search-pulsar-repo-label-duplicate]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aduplicate
+[search-pulsar-org-label-duplicate]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aduplicate
+[search-pulsar-repo-label-wontfix]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Awontfix
+[search-pulsar-org-label-wontfix]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Awontfix
+[search-pulsar-repo-label-invalid]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Ainvalid
+[search-pulsar-org-label-invalid]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Ainvalid
+[search-pulsar-repo-label-package-idea]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Apackage-idea
+[search-pulsar-org-label-package-idea]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Apackage-idea
+[search-pulsar-repo-label-wrong-repo]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Awrong-repo
+[search-pulsar-org-label-wrong-repo]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Awrong-repo
+[search-pulsar-repo-label-editor-rendering]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aeditor-rendering
+[search-pulsar-org-label-editor-rendering]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aeditor-rendering
+[search-pulsar-repo-label-build-error]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Abuild-error
+[search-pulsar-org-label-build-error]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Abuild-error
+[search-pulsar-repo-label-error-from-pathwatcher]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aerror-from-pathwatcher
+[search-pulsar-org-label-error-from-pathwatcher]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aerror-from-pathwatcher
+[search-pulsar-repo-label-error-from-save]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aerror-from-save
+[search-pulsar-org-label-error-from-save]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aerror-from-save
+[search-pulsar-repo-label-error-from-open]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aerror-from-open
+[search-pulsar-org-label-error-from-open]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aerror-from-open
+[search-pulsar-repo-label-installer]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Ainstaller
+[search-pulsar-org-label-installer]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Ainstaller
+[search-pulsar-repo-label-auto-updater]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Aauto-updater
+[search-pulsar-org-label-auto-updater]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aauto-updater
+[search-pulsar-repo-label-deprecation-help]: https://github.com/search?q=is%3Aopen+is%3Aissue+repo%3Apulsar-edit%2Fpulsar+label%3Adeprecation-help
+[search-pulsar-org-label-deprecation-help]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Adeprecation-help
+[search-pulsar-repo-label-electron]: https://github.com/search?q=is%3Aissue+repo%3Apulsar-edit%2Fpulsar+is%3Aopen+label%3Aelectron
+[search-pulsar-org-label-electron]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Apulsar-edit+label%3Aelectron
+[search-pulsar-repo-label-work-in-progress]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Apulsar-edit%2Fpulsar+label%3Awork-in-progress
+[search-pulsar-org-label-work-in-progress]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Apulsar-edit+label%3Awork-in-progress
+[search-pulsar-repo-label-needs-review]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Apulsar-edit%2Fpulsar+label%3Aneeds-review
+[search-pulsar-org-label-needs-review]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Apulsar-edit+label%3Aneeds-review
+[search-pulsar-repo-label-under-review]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Apulsar-edit%2Fpulsar+label%3Aunder-review
+[search-pulsar-org-label-under-review]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Apulsar-edit+label%3Aunder-review
+[search-pulsar-repo-label-requires-changes]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Apulsar-edit%2Fpulsar+label%3Arequires-changes
+[search-pulsar-org-label-requires-changes]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Apulsar-edit+label%3Arequires-changes
+[search-pulsar-repo-label-needs-testing]: https://github.com/search?q=is%3Aopen+is%3Apr+repo%3Apulsar-edit%2Fpulsar+label%3Aneeds-testing
+[search-pulsar-org-label-needs-testing]: https://github.com/search?q=is%3Aopen+is%3Apr+user%3Apulsar-edit+label%3Aneeds-testing
 
-[beginner]:https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Abeginner+label%3Ahelp-wanted+user%3Aatom+sort%3Acomments-desc
-[help-wanted]:https://github.com/search?q=is%3Aopen+is%3Aissue+label%3Ahelp-wanted+user%3Aatom+sort%3Acomments-desc+-label%3Abeginner
-[contributing-to-official-atom-packages]:https://flight-manual.atom.io/hacking-atom/sections/contributing-to-official-atom-packages/
-[hacking-on-atom-core]: https://flight-manual.atom.io/hacking-atom/sections/hacking-on-atom-core/
+[beginner]:https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Abeginner+label%3Ahelp-wanted+user%3Apulsar-edit+sort%3Acomments-desc
+[help-wanted]:https://github.com/search?q=is%3Aopen+is%3Aissue+label%3Ahelp-wanted+user%3Apulsar-edit+sort%3Acomments-desc+-label%3Abeginner
+[contributing-to-official-pulsar-packages]:https://flight-manual.atom.io/hacking-atom/sections/contributing-to-official-atom-packages/
+[hacking-on-pulsar-core]: https://flight-manual.atom.io/hacking-atom/sections/hacking-on-atom-core/
