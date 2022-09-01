@@ -5,7 +5,7 @@ This document describes some of the specific methods and techniques that can be 
 At this time here are some of the easiest ways to help the community during this time:
 
 * [Rebranding](#rebranding)
-  * [`owner/repo` References](#owner/repo-references)
+  * [`owner/repo` References](#ownerrepo-references)
   * [`Flight Manual` References](#flight-manual-references)
   * [3rd Party References](#3rd-party-references)
   * [Historical Data References](#historical-data-references)
