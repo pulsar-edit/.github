@@ -99,7 +99,7 @@ While there are several options to contribute **ANYTHING** that can be done is a
 * Core (Developers dedicated to the Core of the Editor)
 * Documentation (Developers dedicated to the Documentation of the editor, its READMEs, and other resources across the org)
 * Backend (Developers dedicated to the Backend Server Services relevant to the editor)
-* Contributor (Developers dedicated to any other, or non-hyper specific part of the editor.)
+* Developer (Developers dedicated to any other, or non-hyper specific part of the editor.)
 
 #### GitHub Teams 
 
