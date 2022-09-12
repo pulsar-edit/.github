@@ -78,11 +78,19 @@ A goal for the core of the editor is to 'decaffeinate' that is to remove CoffeeS
 
 As for how to successfully Decaffeinate the core of the editor (or any other repos/packages in use), a great template for successfully doing so can be seen on [`pulsar-edit/pulsar` PR #13](https://github.com/pulsar-edit/pulsar/pull/13). 
 
-What you must keep in mind is that when Atom was originally created they used tooling for CoffeeScript 1.x whereas much of the tooling that's available now is CoffeeScript 2.x. This means that in order to decaffeinate without breaking changes, the tooling for version 1.x **MUST** be used otherwise there may be unkown ramifications. 
+What you must keep in mind is that when Atom was originally created, they mostly used tooling for CoffeeScript 1.x whereas much of the tooling that's available now is CoffeeScript 2.x based. This means that in order to decaffeinate, CoffeeScript made for 1.x, without breaking changes, the tooling for version 1.x **MUST** be used otherwise there may be unknown ramifications. 
 
-We have found that the best tool to use is [`decaffeinate/decaffeinate` Version 4.0.0](https://github.com/decaffeinate/decaffeinate/releases/tag/v4.0.0). This is the stable release of their decaffeination tooling that uses CoffeeScript 1.x. Anything beyond that could cause breaking changes but as long as you are able to ensure that the tooling you use focuses on CoffeeScript 1.x then there should be few issues. 
+But with that said its important to note that not all of Atom's code is CoffeeScript 1.x based. That is to say there is a mix of both used throughout the codebase. In order to accurately determine which is being used within the repo you are working on the best way to do so is to look at that repo's `package.json` `devDependencies` or sometimes it's `dependencies`.
 
-After using this tool, while the JavaScript generated may not be the prettiest, it will at least be functional. From that functional JavaScript you can change any declarations of `var` to `let` or `const` as needed. This can always be taken further if needed, but this alone should be enough to successfully decaffeinate.
+Within those fields look for the `coffee-script` or `coffeescript` package to see if its versions are 1.x or 2.x.
+
+In generally it'll probably be 1.x tooling used. 
+
+Now once the version is known, you have some options in the best tools to use. Some of the members prefer using the official [`coffee` CLI Program](https://www.npmjs.com/package/coffeescript), with [1.12.7](https://www.npmjs.com/package/coffeescript/v/1.12.7) being recommended for CoffeeScript 1.x tooling and latest being fine for 2.x tooling. If using the official Coffee program using an example from one of the [scripts within `atom/apm`](https://github.com/atom/apm/blob/8538e0f82522be3793c947f7c63408124a4e8613/package.json#L23) you can run `coffee --compile --output lib src` to decaffeinate all .coffee files recursively, and place them into `/lib` as .js files. 
+
+Otherwise other members prefer [`decaffeinate/decaffeinate` Version 4.0.0](https://github.com/decaffeinate/decaffeinate/releases/tag/v4.0.0) for CoffeeScript 1.x tooling, and [`decaffeinate/decaffeinate` latest](https://github.com/decaffeinate/decaffeinate) for 2.x tooling. 
+
+After using either tool, while the JavaScript generated may not be the prettiest, it will at least be functional. From that functional JavaScript you can change any declarations of `var` to `let` or `const` as needed. This can always be taken further if needed, but this alone should be enough to successfully decaffeinate.
 
 If you'd like to see some discussion about this change in how we decaffeinate the initial problem was discovered during a [Discussion on Discord](https://discord.com/channels/992103415163396136/992103415163396139/1018628639404863550) and the solution was found on a [PR here](https://github.com/pulsar-edit/pulsar/pull/45) by a longtime member of both Atom and Pulsar.
 
