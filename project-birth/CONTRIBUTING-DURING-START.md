@@ -74,11 +74,50 @@ When rebranding source code that creates or displays strings the end user will s
 
 ## Decaffeination 
 
-A goal for the core of the editor is to 'decaffeinate' that is to remove CoffeeScript and replace it with JavaScript. This comes largely as a decision since very few of our core team are familiar with or prefer CoffeeScript over JavaScript. Additionally a big push of `Pulsar` is to lower the barrier to entry for new contributors to be as low as possible. And having fewer languages in use assists in that goal. 
+A goal for the core of the editor is to 'decaffeinate' (to remove CoffeeScript and replace it with JavaScript). This goal comes largely from a group decision, considering that very few of our core team are familiar with or prefer CoffeeScript over JavaScript. Additionally a big push of `Pulsar` is to lower the barrier to entry for new contributors to be as low as possible. And using fewer languages assists in that goal.
 
-As for how to successfully Decaffeinate the core of the editor, a great template for successfully doing so can be seen on [`pulsar-edit/pulsar` PR #13](https://github.com/pulsar-edit/pulsar/pull/13). This PR initially used [online decaffeination services](https://decaffeinate-project.org/repl/), then went through the source code using modern variable declarations by changing `var` to `const` or `let`. Additionally unneeded nested ternary operators were replaced with If statements. From there, that alone may be enough to successfully decaffeinate a file, although it can always be taken further as viewed in the above linked PR.
+As for how to successfully Decaffeinate the core of the editor (or any other repos/packages in use), a great template for successfully doing so can be seen on [`pulsar-edit/pulsar` PR #13](https://github.com/pulsar-edit/pulsar/pull/13).
 
-After something has been decaffeinated its asked that you test as much as possible. And if testing is not always possible, all new PR's on `pulsar-edit/pulsar` receive GitHub Actions testing automatically.
+### CoffeeScript 1.x or 2.x
+
+What you must keep in mind is that when Atom was originally created, its authors mostly used tooling for CoffeeScript 1.x, whereas much of the latest tooling that's available is CoffeeScript 2.x based. This means that in order to decaffeinate successfully the tooling made for version CoffeeScript 1.x **MUST** be used, otherwise there may be JavaScript code produced that behaves significantly differently than the original CoffeeScript. (This could cause bugs and errors in the resulting code.)
+
+Nevertheless, there may be some CoffeeScript 2.x code somewhere among Atom's codebase. In order to accurately determine which is being used within the repo you are working on, the best way to do so is to look at that repo's `package.json` `devDependencies` or sometimes it's `dependencies`.
+
+Within those fields look for the `coffee-script` or `coffeescript` package to see if its versions are 1.x or 2.x.
+
+In general it'll probably be 1.x tooling used.
+
+### How to Decaffeinate
+
+Now once the version is known, you have some options in the best tools to use:
+
+1) Some of the members prefer using the official [`coffee` program](https://www.npmjs.com/package/coffeescript), with [1.12.7](https://www.npmjs.com/package/coffeescript/v/1.12.7) being recommended for CoffeeScript 1.x tooling and latest being fine for 2.x tooling.
+
+(If using the official Coffee program, here is an example from one of the [scripts within `atom/apm`](https://github.com/atom/apm/blob/8538e0f82522be3793c947f7c63408124a4e8613/package.json#L23). You can run `coffee --compile --output lib src` to decaffeinate all .coffee files in the `src/` folder, and place them into `lib/` as .js files.)
+
+2) Otherwise other members prefer [`decaffeinate/decaffeinate` Version 4.0.0](https://github.com/decaffeinate/decaffeinate/releases/tag/v4.0.0) for CoffeeScript 1.x tooling, and [`decaffeinate/decaffeinate` latest](https://github.com/decaffeinate/decaffeinate) for 2.x tooling.
+
+After using either tool, while the JavaScript generated may not be the prettiest, it will at least be functional. From that functional JavaScript you can change any declarations of `var` to `let` or `const` as needed. Code improvement can always be taken further if needed, but this alone should be enough to successfully decaffeinate.
+
+If you'd like to see some discussion about this change in how we decaffeinate, the initial problem was discovered during a [Discussion on Discord](https://discord.com/channels/992103415163396136/992103415163396139/1018628639404863550) and the solution was found on a [PR here](https://github.com/pulsar-edit/pulsar/pull/45) by a longtime member of both Atom and Pulsar.
+
+### Confirming the Quality of Decaffeination 
+
+Once you've used a compiler to successfully decaffeinate the code, steps must be taken to ensure that the code output is of good quality and can properly be used, and maintained by further contributors. Some steps that can be taken are listed below.
+
+* Replace [`var`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var) with [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) and [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) if it's possible.
+* Replace Nested [Ternary Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) with `if` statements.
+* Remove `return` when it's not needed.
+* Remove Result Arrays when they are not needed.
+* Replace `for` loops with [`for-of` loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of).
+* Use [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) to write functions in a single line when it's possible.
+* Remove unneeded `ref` variables.
+* Remove [`do` blocks](https://devdocs.io/coffeescript~1/index#loops) and use `let` or `const` instead.
+
+### Testing
+
+After something has been decaffeinated, it's asked that you test as much as possible. And if testing is not always possible, all new PR's on `pulsar-edit/pulsar` receive GitHub Actions testing automatically.
 
 ---
 
