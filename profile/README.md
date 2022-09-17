@@ -18,5 +18,6 @@ If you would like to be more up to date on the progress within Pulsar feel free 
 * [Tentative Roadmap Discussion](https://github.com/orgs/pulsar-edit/discussions/2)
 * [Frequently Asked Questions](https://github.com/pulsar-edit/.github/blob/main/FAQ.md)
 * [Contributing Right Now](https://github.com/pulsar-edit/.github/blob/main/project-birth/CONTRIBUTING-DURING-START.md)
+* [Documentation Roadmap](https://github.com/pulsar-edit/pulsar-edit.github.io/issues/14)
 
 Otherwise you may always check out our [Discord Server](https://discord.gg/gp9UStzsHk).
