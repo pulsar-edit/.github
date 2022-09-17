@@ -10,7 +10,14 @@ At this time here are some of the easiest ways to help the community during this
   * [3rd Party References](#3rd-party-references)
   * [Historical Data References](#historical-data-references)
   * [Rebranding in Code](#rebranding-in-code)
+* [Simplifying and Bringing up to Standards](#simplifying-and-bringing-up-to-our-standards)
+  * [Handle Template Files](#handle-template-files)
+  * [Contributing.md](#contributing.md)
 * [Decaffeination](#decaffeination)
+  * [CoffeeScript 1.x or 2.x](#coffeescript-1.x-or-2.x)
+  * [How to Decaffeinate](#how-to-decaffeinate)
+  * [Confirming the Quality of Decaffeination](#confirming-the-quality-of-decaffeination)
+  * [Testing](#testing)
 * [Bump Dependencies](#bump-dependencies)
 * [Conclusion](#conclusion)
   * [Discord Teams](#discord-teams)
@@ -40,7 +47,7 @@ Then here are examples of incorrect rebranding efforts:
 Throughout the documentation there are many references to `Atom`'s official documentation, `https://flight-manual.atom.io`. At this time, our updated version of the documentation is not live, although it is in progress on our [docs](https://github.com/pulsar-edit/docs) repository. This means that encountering an instance of a `Flight Manual` link within the source can be handled in one of two ways.
 
 1. If a link is found, **LEAVE AS IS** That is to say, do not modify the link. Allowing the link to still work properly even if it may be slightly outdated, or have improper rebranding as of now, at the very least it still gives the user some proper information to work off of.
-2. Instead point the link to the correct identical location within the [docs](https://github.com/pulsar-edit/docs) repository. Which again while the site is not live, would instead have these links point to the raw MarkDown file thats appropriate for said resource. Some examples of this change properly:
+2. Instead point the link to the correct identical location within the [docs](https://github.com/pulsar-edit/docs) repository. Which again while the site is not live, would instead have these links point to the raw MarkDown file that's appropriate for said resource. Some examples of this change properly:
   
   - `https://flight-manual.atom.io/getting-started/sections/atom-basics/` => `https://github.com/pulsar-edit/docs/blob/main/docs/src/content/getting-started/sections/atom-basics.md`
   - `https://flight-manual.atom.io/getting-started/sections/atom-basics/#settings-and-preferences` => `https://github.com/pulsar-edit/docs/blob/main/docs/src/content/getting-started/sections/atom-basics.md#settings-and-preferences`
@@ -52,7 +59,7 @@ Throughout the documentation there are many references to other services, and we
 When these are encountered we a few options:
 
 1. Find the relevant equal service. Such as finding linkage to the `Atom` or `Atom-Community` Discord Server, could be updated to instead point to our Discord Server, with the branding changed to be relevant and accurate.
-2. Leave as is. For example if no equal service/solution exists, or this points to another developers repository, we have no control on that repo, and as such can't expect that developer to rebrand their project, so we will have to leave as is. For example: 'Here is an archive tool for [Atom Packages](https://github.com/confused-Techie/AtomPackagesArchive).' - This tool was not created for Pulsar, so we couldn't honestly say the `[Pulsar Packages]()`, but in some cases changing that branding may be appropriate, but in all cases changing the link to `confused-Techie/PulsarPackagesArchive` wouldn't resolve, since we can't assume that 3rd party developer will change their branding. The cases were some rebranding may be appropriate here will depend on a case by case basis.
+2. Leave as is. For example if no equal service/solution exists, or this points to another developers repository, we have no control on that repo, and as such can't expect that developer to rebrand their project, so we will have to leave as is. For example: 'Here is an archive tool for [Atom Packages]\(https://github.com/confused-Techie/AtomPackagesArchive).' - This tool was not created for Pulsar, so we couldn't honestly say the `[Pulsar Packages]()`, but in some cases changing that branding may be appropriate, but in all cases changing the link to `confused-Techie/PulsarPackagesArchive` wouldn't resolve, since we can't assume that 3rd party developer will change their branding. The cases were some rebranding may be appropriate here will depend on a case by case basis.
 3. Sometimes a service should not be rebranded, and instead should be removed wholesale. This will depend on each circumstance, but can always be pointed out and asked about when encountered during the PR. Such as linkage to Azure Build status. There are no current plans to use Azure CI utilities in our project, so nothing here could be accurately rebranding. Meaning it may be the best choice to remove the whole section. Although in some cases finding a suitable alternative could be used, such as the case in CI Utilities, you could message our Discord Server, or check other issues and code for what's being used. Even though, at this time the results on which service to use are [inconclusive](https://github.com/orgs/pulsar-edit/discussions/4).
 
 ### Historical Data References:
@@ -69,6 +76,37 @@ When rebranding source code that creates or displays strings the end user will s
 * `atom.branding.name` = "Pulsar"
 * `atom.branding.urlWeb` = "https://atom.io" (Using this global API allows us to easily change the URL later on)
 * `atom.branding.urlGH` = "https://github.com/pulsar-edit"
+
+---
+
+## Simplifying and Bringing up to Our Standards 
+
+While going through various repos we have there are a few things to do, that we currently consider best practice, or at the very least avoid a few issues that are currently present. All of these recommendations are aimed at simplifying our data going forward, and getting some of it to a universally agreed standards.
+
+### Handle Template Files 
+
+Many repos contain their own templates for issues, prs and such. But the vast majority of these are copy pasted from others, and with these templates existing on `pulsar-edit/.github` this is no longer needed. Because if the template exists on this repo, it will still provide that template to all repos within the org that do themselves not have this template. 
+
+So when finding a template file along the lines of `PULL_REQUEST_TEMPLATE.md`, `BUG_REPORT.md` or the like, check if that template is available on [`pulsar-edit/.github` Issue Templates](https://github.com/pulsar-edit/.github/tree/main/.github/ISSUE_TEMPLATE) or [`pulsar-edit/.github` Pull Request Templates](https://github.com/pulsar-edit/.github/tree/main/.github/PULL_REQUEST_TEMPLATE). 
+If the template in your repo is available in one of the above, then its safe to delete it.
+
+If your template is not in the above, it may be worth considering adding it, then deleting it from your repo.
+
+### Contributing.md
+
+Almost all repos contain a `CONTRIBUTING.md` file in their root. While it still may be advantageous to keep this, even if `pulsar-edit/.github` would provide this file, the only recommended change to make is the contents of the file itself, to ensure its always easy for others to find how to contribute, no matter the medium they are reviewing the codebase.
+
+Currently `CONTRIBUTING.md` will likely contain:
+
+```markdown 
+See the [Atom contributing guide](https://github.com/atom/atom/blob/master/CONTRIBUTING.md)
+```
+
+But this should always be changed to:
+
+```markdown 
+[See how you can contribute](https://github.com/pulsar-edit/.github/blob/main/CONTRIBUTING.md)
+```
 
 ---
 
