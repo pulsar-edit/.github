@@ -47,7 +47,7 @@ Then here are examples of incorrect rebranding efforts:
 Throughout the documentation there are many references to `Atom`'s official documentation, `https://flight-manual.atom.io`. At this time, our updated version of the documentation is not live, although it is in progress on our [docs](https://github.com/pulsar-edit/docs) repository. This means that encountering an instance of a `Flight Manual` link within the source can be handled in one of two ways.
 
 1. If a link is found, **LEAVE AS IS** That is to say, do not modify the link. Allowing the link to still work properly even if it may be slightly outdated, or have improper rebranding as of now, at the very least it still gives the user some proper information to work off of.
-2. Instead point the link to the correct identical location within the [docs](https://github.com/pulsar-edit/docs) repository. Which again while the site is not live, would instead have these links point to the raw MarkDown file that's appropriate for said resource. Some examples of this change properly:
+2. Instead point the link to the correct identical location within the [docs](https://github.com/pulsar-edit/pulsar-edit.github.io) repository. Which is live, and all parts of this should be availible soon. For now point to the raw md file in the repo:
   
   - `https://flight-manual.atom.io/getting-started/sections/atom-basics/` => `https://github.com/pulsar-edit/docs/blob/main/docs/src/content/getting-started/sections/atom-basics.md`
   - `https://flight-manual.atom.io/getting-started/sections/atom-basics/#settings-and-preferences` => `https://github.com/pulsar-edit/docs/blob/main/docs/src/content/getting-started/sections/atom-basics.md#settings-and-preferences`
