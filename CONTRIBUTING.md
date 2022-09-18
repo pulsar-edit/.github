@@ -5,6 +5,7 @@
 The following is a set of guidelines for contributing to Pulsar and its packages, which are hosted in the [Pulsar Organization](https://github.com/pulsar-edit) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 ---
+
 Its also worth mentioning, that while many items here to apply, during our early stages as an Organization, there are [special guidelines to consider.](https://github.com/pulsar-edit/.github/blob/main/project-birth/CONTRIBUTING-DURING-START.md) 
 
 ---
