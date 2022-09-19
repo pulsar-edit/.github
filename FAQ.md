@@ -26,4 +26,4 @@ Well Nobody, and Everyone. Pulsar is a volunteer and community driven project. W
 
 # How do I contact members of Pulsar?
 
-There are many ways, of course the classical Issues or Pull Requests on Repos is fine and well, additionally there are discussions org wide if needed, or discussions on a Repo Level. We are also all pretty active and responsive on our Discord Server, and messages there are always welcome. Lastly, we have a *new* [Subreddit](https://www.reddit.com/r/pulsaredit/) you can join instead of our Discord Server.
+There are many ways, of course the classical Issues or Pull Requests on Repos is fine and well, additionally there are discussions org wide if needed, or discussions on a Repo Level. We are also all pretty active and responsive on our Discord Server, and messages there are always welcome. Lastly, we have a *new* [Subreddit](https://www.reddit.com/r/pulsaredit/) you can join as well.
