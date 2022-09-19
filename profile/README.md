@@ -21,4 +21,6 @@ If you would like to be more up to date on the progress within Pulsar feel free 
 * [Documentation Roadmap](https://github.com/pulsar-edit/pulsar-edit.github.io/issues/14)
 * [Hop Right on in with some PR's and Issues](https://github.com/pulls?q=is%3Aopen+user%3Apulsar-edit+archived%3Afalse+sort%3Acomments-asc)
 
-Otherwise you may always check out our [Discord Server](https://discord.gg/gp9UStzsHk).
+For other support feel free to join us here:
+- [Discord Server](https://discord.gg/gp9UStzsHk).
+- [Reddit](https://www.reddit.com/r/pulsaredit/)
