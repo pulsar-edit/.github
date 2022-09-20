@@ -19,4 +19,4 @@ If you would like to be more up to date on the progress within Pulsar feel free 
 * [Frequently Asked Questions](https://github.com/pulsar-edit/.github/blob/main/FAQ.md)
 * [Contributing Right Now](https://github.com/pulsar-edit/.github/blob/main/project-birth/CONTRIBUTING-DURING-START.md)
 
-Otherwise you may always check out our [Discord Server](https://discord.gg/gp9UStzsHk).
+Otherwise you may always check out our [Discord Server](https://discord.gg/7aEbB9dGRT).
