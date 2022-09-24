@@ -1,3 +1,7 @@
+**This document has moved to the [pulsar-edit.github.io](https://github.com/pulsar-edit/pulsar-edit.github.io) repository, as we are moving Pulsar-specific docs to the website.** The most recent copy here is still available for archival purposes. Please direct all contributions to that repository in the near future.
+
+---
+
 # Is Pulsar-Edit the same as Atom-Community?
 
 While the original team that was working on Atom-Community is now the team creating Pulsar, they are not the same.
