@@ -1,3 +1,7 @@
+**This document has moved to the [pulsar-edit.github.io](https://github.com/pulsar-edit/pulsar-edit.github.io) repository, as we are moving Pulsar-specific docs to the website.** The most recent copy here is still available for archival purposes. Please direct all contributions to that repository in the near future.
+
+---
+
 During these very early stages of the Pulsar project there are many things that need to be completed, and many ways that new contributors can assist.
 
 This document describes some of the specific methods and techniques that can be used to help during the transition from the soon to be sunset `Atom` to `Pulsar`. While any contributions to the `Pulsar-Edit` Organization should follow the organization wide [Contributor Guidelines](https://github.com/pulsar-edit/.github/blob/main/CONTRIBUTING.md) this document highlights some specific tasks that need extra attention at this time and how to help with them.
