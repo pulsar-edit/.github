@@ -1,4 +1,4 @@
-**This document has moved to the [pulsar-edit.github.io](https://github.com/pulsar-edit/pulsar-edit.github.io) repository, as we are moving Pulsar-specific docs to the website.** The most recent copy here is still available for archival purposes. Please direct all contributions to that repository in the near future.
+**This document has moved to the [pulsar-edit.github.io](https://github.com/pulsar-edit/pulsar-edit.github.io) repository, as we are moving Pulsar-specific docs to the website.** The most recent copy here is still available for archival purposes. For readers, to get the most up-to-date info, please go to the aforementioned repository. For editors (contributors), please direct all contributions to the aforementioned repository in the near future.
 
 ---
 
