@@ -1,69 +1,69 @@
-name: Bug Report
+name: New Pulsar Bug Report
 description: Help us improve by filing a bug report
 title: ":bug:[Bug]: "
 labels: ["bug", "triage", "question", "modernization"]
 body:
-  - type: checkboxes
-    id: initiative-check
-    attributes:
-      label: Thanks in advance for your bug report!
-      description: "Please make sure you have done the following:"
-      options:
-        - label: Have you reproduced in [safe mode](https://pulsar-edit.github.io/docs/atom-archive/faq/sections/what-does-safe-mode-do.html)? 
-          required: true
-        - label: Have you used the [debugging guide](https://pulsar-edit.github.io/docs/atom-archive/hacking-atom/#debugging) to fix any issues? 
-          required: true
-        - label: Checked our [FAQs](https://pulsar-edit.github.io/docs/launch-manual/sections/faq/) to make sure your question isn"'"t answered there? 
-          required: true
-        - label: Does your issue already [exist](https://github.com/issues?q=is%3Aissue+user%3Apulsar-edit+is%3Aopen)? 
-          required: true
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      placeholder: Tell us what happened!
-    validations:
-      required: true
-  - type: dropdown
-    id: os-info
-    atributes:
-      label: Which OS does this happen on?
-      options:
-        - Debian Based Linux(Mint, Ubuntu, etc)
-        - Arch Based(Manjaro, Garuda, etc)
-        - Red Hat Based(Fedora, Alma, RockyLinux, CentOS Stream, etc)
-        - OpenSUSE based
-        - Mac
-        - Windows
-        - Other(Please enter which in the Additional Information field below)
-    validations:
-      required: true
-  - type: dropdown
-    id: sys-info
-    attributes:
-      label: Which architecture are you running this on?
-      options:
-        - 64-bit(x86_64)
-        - ARM (Apple Silicon)
-    validations:
-      required: false
-  - type: textarea
-    id: steps
-    attributes:
-      label: What steps are needed to reproduce this?
-      placeholder: |
-        1. In this environment...
-        2. With this config...
-        3. Run '...'
-        4. See error...
-    validations:
-      required: true
-  - type: input
-    id: additional-context
+- type: checkboxes
+  id: initiative-check
+  attributes:
+    label: Thanks in advance for your bug report!
+    description: "Please make sure you have done the following:"
+    options:
+      - label: Have you reproduced in [safe mode](https://pulsar-edit.github.io/docs/atom-archive/faq/sections/what-does-safe-mode-do.html)? 
+        required: true
+      - label: Have you used the [debugging guide](https://pulsar-edit.github.io/docs/atom-archive/hacking-atom/#debugging) to fix any issues? 
+        required: true
+      - label: Checked our [FAQs](https://pulsar-edit.github.io/docs/launch-manual/sections/faq/) to make sure your question isn"'"t answered there? 
+        required: true
+      - label: Does your issue already [exist](https://github.com/issues?q=is%3Aissue+user%3Apulsar-edit+is%3Aopen)? 
+        required: true
+- type: textarea
+  id: what-happened
+  attributes:
+    label: What happened?
+    placeholder: Tell us what happened!
+  validations:
+    required: true
+- type: dropdown
+  id: os-info
+  attributes:
+    label: Which OS does this happen on?
+    options:
+      - Debian Based Linux(Mint, Ubuntu, etc)
+      - Arch Based(Manjaro, Garuda, etc)
+      - Red Hat Based(Fedora, Alma, RockyLinux, CentOS Stream, etc)
+      - OpenSUSE based
+      - Mac
+      - Windows
+      - Other(Please enter which in the Additional Information field below)
+  validations:
+    required: true
+- type: dropdown
+  id: sys-info
+  attributes:
+    label: Which architecture are you running this on?
+    options:
+      - 64-bit(x86_64)
+      - ARM (Apple Silicon)
+  validations:
+    required: false
+- type: textarea
+  id: steps
+  attributes:
+    label: What steps are needed to reproduce this?
+    placeholder: |
+      1. In this environment...
+      2. With this config...
+      3. Run '...'
+      4. See error...
+  validations:
+    required: true
+- type: input
+  id: additional-context
+  attributes:
     description: |
       Please provide any additional context for this:
-    attributes:
-      placeholder: |
-        Add any other context or screenshots about the feature request here.
-    validations:
-      required: false
+    placeholder: |
+      Add any other context or screenshots about the feature request here.
+  validations:
+    required: false
