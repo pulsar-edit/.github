@@ -1,0 +1,38 @@
+name: Bug Report
+description: Help us improve by filing a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - 
+body:
+  - type: markdown
+    attributes:
+      label: Thanks in advance for your bug report!
+      value: |
+        Make sure you've done the following before submitting:
+        - [] Have you reproduced in safe mode? 
+        - [] Have you used the debugging guide to fix any issues?
+        - [] Checked our FAQs to make sure your question isn't answered there?
+        - [] Does your issue already exist? https://github.com/issues?q=is%3Aissue+user%3Apulsar-edit
+  - type: text-area
+    id: what-happened
+    attributes:
+      label: What happened?
+      placeholder: Tell us what happened!
+    validations:
+      required: true
+  - type: text-area
+    id: sys-info
+    atributes:
+      label: Enter your system information:
+      placeholder: Use a program like neofetch or find system information in your "OS's"|
+        to find this information.
+      validations:
+          required: true
+  - type: text-area
+    id: steps
+    attributes:
+      label: What steps are needed to reproduce this?
+      placeholder: Enter your steps here.
+    validations:
+      required: false
