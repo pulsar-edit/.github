@@ -9,16 +9,16 @@ body:
     label: Summary
     placeholder: |
       Please give a detailed explanation of the feature you need.
-    validations:
-      required: true
+  validations:
+    required: true
 - type: textarea
   id: movtivation
   attributes:
     description: "What is the motivation for doing this?"
     label: "Enter your response below:"
     placeholder: What's the reasoning for adding this feature and/or package? What uses are there for this?
-    validations:
-      required: true
+  validations:
+    required: true
 - type: input
   id: alternatives
   attributes:
@@ -26,8 +26,8 @@ body:
       "Are there any other possible alternatives? (Is this really the best solution or only option to add this feature? Could it be a plugin?)"
     placeholder: |
       A clear and concise description of the alternative solutions you've considered. Be sure to explain why Atom's existing customizability isn't suitable for this feature.
-    validations:
-      required: true
+  validations:
+    required: true
 - type: input
   id: additional-context
   attributes:
@@ -36,3 +36,5 @@ body:
     label: "Addiional context:"
     placeholder: |
       Add any other context or screenshots about the feature request here.
+    validations:
+      required: false
