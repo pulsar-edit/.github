@@ -23,7 +23,7 @@ body:
   id: alternatives
   attributes:
     description: |
-    Are there any other possible alternatives? (Is this really the best solution or only option to add this feature? Could it be a plugin?)
+      "Are there any other possible alternatives? (Is this really the best solution or only option to add this feature? Could it be a plugin?)"
     placeholder: |
       A clear and concise description of the alternative solutions you've considered. Be sure to explain why Atom's existing customizability isn't suitable for this feature.
     validations:
