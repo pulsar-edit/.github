@@ -1,4 +1,4 @@
-Where to get support with pulsar? (Please note branding with images and styles is not finished. If you find any out of place references please file a issue)
+Where to get support with Pulsar? (Please note branding with images and styles is not finished. If you find any out of place references please file a issue)
 - File an issue or feature request with the respective repository
 - Check out our site! https://pulsar-edit.github.io
 - Join us at any of the following places:
