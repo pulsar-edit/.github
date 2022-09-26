@@ -10,10 +10,12 @@ body:
       description: Please make sure you have done the following:
       options:
         - label: Have you reproduced in safe mode? https://pulsar-edit.github.io/docs/atom-archive/faq/sections/what-does-safe-mode-do.html
+        required: true
         - label: Have you used the debugging guide to fix any issues? https://pulsar-edit.github.io/docs/atom-archive/hacking-atom/#debugging
+        required: true
         - label: Checked our FAQs to make sure your question isn't answered there? https://pulsar-edit.github.io/docs/launch-manual/sections/faq/
+        required: true
         - label: Does your issue already exist? https://github.com/issues?q=is%3Aissue+user%3Apulsar-edit+is%3Aopen
-      validations:
         required: true
   - type: text-area
     id: what-happened
