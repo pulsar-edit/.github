@@ -7,15 +7,15 @@ body:
     id: initiative-check
     attributes:
       label: Thanks in advance for your bug report!
-      description: Please make sure you have done the following:
+      description: "Please make sure you have done the following:"
       options:
-        - label: Have you reproduced in safe mode? https://pulsar-edit.github.io/docs/atom-archive/faq/sections/what-does-safe-mode-do.html
+        - label: Have you reproduced in [safe mode](https://pulsar-edit.github.io/docs/atom-archive/faq/sections/what-does-safe-mode-do.html)? 
         required: true
-        - label: Have you used the debugging guide to fix any issues? https://pulsar-edit.github.io/docs/atom-archive/hacking-atom/#debugging
+        - label: Have you used the [debugging guide](https://pulsar-edit.github.io/docs/atom-archive/hacking-atom/#debugging) to fix any issues? 
         required: true
-        - label: Checked our FAQs to make sure your question isn't answered there? https://pulsar-edit.github.io/docs/launch-manual/sections/faq/
+        - label: Checked our [FAQs](https://pulsar-edit.github.io/docs/launch-manual/sections/faq/) to make sure your question isn"'"t answered there? 
         required: true
-        - label: Does your issue already exist? https://github.com/issues?q=is%3Aissue+user%3Apulsar-edit+is%3Aopen
+        - label: Does your issue already [exist](https://github.com/issues?q=is%3Aissue+user%3Apulsar-edit+is%3Aopen)? 
         required: true
   - type: text-area
     id: what-happened
