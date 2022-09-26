@@ -62,7 +62,8 @@ body:
   id: additional-context
   attributes:
     description: |
-      Please provide any additional context for this:
+      "What other details can you provide for this?"
+    label: "Additional Information:"
     placeholder: |
       Add any other context or screenshots about the feature request here.
   validations:
