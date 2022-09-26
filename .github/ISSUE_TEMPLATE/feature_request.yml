@@ -24,6 +24,7 @@ body:
   attributes:
     description: |
       "Are there any other possible alternatives? (Is this really the best solution or only option to add this feature? Could it be a plugin?)"
+    label: "Any alternatives?"
     placeholder: |
       A clear and concise description of the alternative solutions you've considered. Be sure to explain why Atom's existing customizability isn't suitable for this feature.
   validations:
@@ -36,5 +37,5 @@ body:
     label: "Addiional context:"
     placeholder: |
       Add any other context or screenshots about the feature request here.
-    validations:
-      required: false
+  validations:
+    required: false
