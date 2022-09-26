@@ -9,14 +9,3 @@ contact_links:
   - name: We're on reddit!
     url: https://www.reddit.com/r/pulsaredit/
     about: Join us here if that's more your thing too!
-body:
-  - type: markdown
-    attributes:
-      value: |
-        - Have you read our code of conduct here for Pulsar? By Filing these you are expected to comply, including treating everyone with respect. https://github.com/pulsar-edit/.github/blob/master/CODE_OF_CONDUCT.md
-        - Before filing a issue or feature, check to make sure there's not a customization you could use to get the same effect:
-          * https://flight-manual.atom.io/using-atom/sections/basic-customization/: tweak Pulsar's configuration, styles, and keybindings.
-          * https://flight-manual.atom.io/using-atom/sections/atom-packages/: install a community package.
-          * https://flight-manual.atom.io/hacking-atom/: use the Pulsar API in your init script, to create a package, or to enhance an existing package.
-        - If you're convinced that none of these options are not appropriate for the feature you want, please explain why in your issue.
-        - Also note that the Pulsar team has finite resources so it's unlikely that we'll work on feature requests. If we're interested in a particular feature however, we'll follow up and ask you to submit an RFC to talk about it in more detail.
