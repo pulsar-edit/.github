@@ -10,13 +10,13 @@ body:
       description: "Please make sure you have done the following:"
       options:
         - label: Have you reproduced in [safe mode](https://pulsar-edit.github.io/docs/atom-archive/faq/sections/what-does-safe-mode-do.html)? 
-        required: true
+          required: true
         - label: Have you used the [debugging guide](https://pulsar-edit.github.io/docs/atom-archive/hacking-atom/#debugging) to fix any issues? 
-        required: true
+          required: true
         - label: Checked our [FAQs](https://pulsar-edit.github.io/docs/launch-manual/sections/faq/) to make sure your question isn"'"t answered there? 
-        required: true
+          required: true
         - label: Does your issue already [exist](https://github.com/issues?q=is%3Aissue+user%3Apulsar-edit+is%3Aopen)? 
-        required: true
+          required: true
   - type: text-area
     id: what-happened
     attributes:
