@@ -17,7 +17,7 @@ body:
           required: true
         - label: Does your issue already [exist](https://github.com/issues?q=is%3Aissue+user%3Apulsar-edit+is%3Aopen)? 
           required: true
-  - type: text-area
+  - type: textarea
     id: what-happened
     attributes:
       label: What happened?
@@ -40,14 +40,14 @@ body:
       required: true
   - type: dropdown
     id: sys-info
-    atributes:
+    attributes:
       label: Which architecture are you running this on?
       options:
         - 64-bit(x86_64)
         - ARM (Apple Silicon)
     validations:
       required: false
-  - type: text-area
+  - type: textarea
     id: steps
     attributes:
       label: What steps are needed to reproduce this?
@@ -65,3 +65,5 @@ body:
     attributes:
       placeholder: |
         Add any other context or screenshots about the feature request here.
+    validations:
+      required: false
