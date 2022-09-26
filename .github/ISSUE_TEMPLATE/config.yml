@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Organization wide discussions
-    link: https://github.com/orgs/pulsar-edit/discussions
-    about: For any discussion within our community
-  - name: Discord
-    url: https://discord.gg/7aEbB9dGRT
-    about: Join us on discord!
-  - name: We're on reddit!
-    url: https://www.reddit.com/r/pulsaredit/
-    about: Join us here if that's more your thing too!
+- name: Organization wide discussions
+  link: https://github.com/orgs/pulsar-edit/discussions
+  about: For any discussion within our community
+- name: Discord
+  url: https://discord.gg/7aEbB9dGRT
+  about: Join us on discord!
+- name: We're on reddit!
+  url: https://www.reddit.com/r/pulsaredit/
+  about: Join us here if that's more your thing too!
