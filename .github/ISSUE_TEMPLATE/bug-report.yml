@@ -1,19 +1,20 @@
 name: Bug Report
 description: Help us improve by filing a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
-  - 
+title: ":bug:[Bug]: "
+labels: ["bug", "triage", "question", "modernization"]
 body:
-  - type: markdown
+  - type: checkboxes
+    id: initiative-check
     attributes:
       label: Thanks in advance for your bug report!
-      value: |
-        Make sure you've done the following before submitting:
-        - [] Have you reproduced in safe mode? 
-        - [] Have you used the debugging guide to fix any issues?
-        - [] Checked our FAQs to make sure your question isn't answered there?
-        - [] Does your issue already exist? https://github.com/issues?q=is%3Aissue+user%3Apulsar-edit
+      description: Please make sure you have done the following:
+      options:
+        - label: Have you reproduced in safe mode? https://pulsar-edit.github.io/docs/atom-archive/faq/sections/what-does-safe-mode-do.html
+        - label: Have you used the debugging guide to fix any issues? https://pulsar-edit.github.io/docs/atom-archive/hacking-atom/#debugging
+        - label: Checked our FAQs to make sure your question isn't answered there? https://pulsar-edit.github.io/docs/launch-manual/sections/faq/
+        - label: Does your issue already exist? https://github.com/issues?q=is%3Aissue+user%3Apulsar-edit+is%3Aopen
+      validations:
+        required: true
   - type: text-area
     id: what-happened
     attributes:
@@ -21,18 +22,44 @@ body:
       placeholder: Tell us what happened!
     validations:
       required: true
-  - type: text-area
+  - type: dropdown
+    id: os-info
+    atributes:
+      label: Which OS does this happen on?
+      options:
+        - Debian Based Linux(Mint, Ubuntu, etc)
+        - Arch Based(Manjaro, Garuda, etc)
+        - Red Hat Based(Fedora, Alma, RockyLinux, CentOS Stream, etc)
+        - OpenSUSE based
+        - Mac
+        - Windows
+        - Other(Please enter which in the Additional Information field below)
+    validations:
+      required: true
+  - type: dropdown
     id: sys-info
     atributes:
-      label: Enter your system information:
-      placeholder: Use a program like neofetch or find system information in your "OS's"|
-        to find this information.
-      validations:
-          required: true
+      label: Which architecture are you running this on?
+      options:
+        - 64-bit(x86_64)
+        - ARM (Apple Silicon)
+    validations:
+      required: false
   - type: text-area
     id: steps
     attributes:
       label: What steps are needed to reproduce this?
-      placeholder: Enter your steps here.
+      placeholder: |
+        1. In this environment...
+        2. With this config...
+        3. Run '...'
+        4. See error...
     validations:
-      required: false
+      required: true
+  - type: input
+    id: additional-context
+    description: |
+      Please provide any additional context for this:
+    attributes:
+      placeholder: |
+        Add any other context or screenshots about the feature request here.
