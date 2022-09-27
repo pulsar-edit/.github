@@ -1,6 +1,6 @@
 Where to get support with Pulsar? (Please note branding with images and styles is not finished. If you find any out of place references please file a issue)
 - File an issue or feature request with the respective repository
-- Check out our site! https://pulsar-edit.github.io
+- Check out our site! https://www.pulsar-edit.dev
 - Join us at any of the following places:
   - Discussions you can use the Discussions tab for the repo or use the Organization wide one here:
     - https://github.com/orgs/pulsar-edit/discussions
