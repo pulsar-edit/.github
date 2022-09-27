@@ -1,6 +1,5 @@
-name: New Pulsar Bug Report
-description: Help us improve by filing a bug report
-title: ":bug:[Bug]: "
+name: 🐛 New Bug Report
+description: Help Pulsar improve by filing a bug report
 labels: ["bug", "triage", "question", "modernization"]
 body:
 - type: checkboxes
@@ -9,13 +8,15 @@ body:
     label: Thanks in advance for your bug report!
     description: "Please make sure you have done the following:"
     options:
-      - label: Have you reproduced in [safe mode](https://pulsar-edit.github.io/docs/atom-archive/faq/sections/what-does-safe-mode-do.html)? 
+      - label: Have you reproduced issue in [safe mode](https://pulsar-edit.dev/docs/atom-archive/faq/sections/what-does-safe-mode-do.html)? 
         required: true
-      - label: Have you used the [debugging guide](https://pulsar-edit.github.io/docs/atom-archive/hacking-atom/#debugging) to fix any issues? 
+      - label: Have you used the [debugging guide](https://pulsar-edit.dev/docs/atom-archive/hacking-atom/#debugging) to try to resolve the issue? 
         required: true
-      - label: Checked our [FAQs](https://pulsar-edit.github.io/docs/launch-manual/sections/faq/) to make sure your question isn"'"t answered there? 
+      - label: "Have you checked our [FAQs](https://pulsar-edit.dev/docs/launch-manual/sections/faq/) to make sure your question isn't answered there?"
         required: true
       - label: Does your issue already [exist](https://github.com/issues?q=is%3Aissue+user%3Apulsar-edit+is%3Aopen)? 
+        required: true
+      - label: Have you checked you are on the latest release of Pulsar?
         required: true
 - type: textarea
   id: what-happened
@@ -29,22 +30,29 @@ body:
   attributes:
     label: Which OS does this happen on?
     options:
-      - Debian Based Linux(Mint, Ubuntu, etc)
-      - Arch Based(Manjaro, Garuda, etc)
-      - Red Hat Based(Fedora, Alma, RockyLinux, CentOS Stream, etc)
-      - OpenSUSE based
-      - Mac
-      - Windows
-      - Other(Please enter which in the Additional Information field below)
+      - 🐧 Debian based (Linux Mint, Ubuntu, etc.)
+      - 🐧 Arch based (Manjaro, Garuda, etc.)
+      - 🐧 Red Hat based (Fedora, Alma, RockyLinux, CentOS Stream, etc.)
+      - 🐧 OpenSUSE based
+      - 🍎 macOS
+      - 🪟 Windows
+      - ❓ Other(Please specify in the OS details field below)
+  validations:
+    required: true
+- type: input
+  id: os-version
+  attributes:
+    label: OS details
+    placeholder: OS version, distribution etc.
   validations:
     required: true
 - type: dropdown
   id: sys-info
   attributes:
-    label: Which architecture are you running this on?
+    label: Which CPU architecture are you running this on?
     options:
       - 64-bit(x86_64)
-      - ARM (Apple Silicon)
+      - Apple M1/M2
   validations:
     required: false
 - type: textarea
@@ -58,13 +66,14 @@ body:
       4. See error...
   validations:
     required: true
-- type: input
+- type: textarea
   id: additional-context
   attributes:
     description: |
-      "What other details can you provide for this?"
+      "What other details can you provide?"
     label: "Additional Information:"
     placeholder: |
-      Add any other context or screenshots about the feature request here.
+      Add any other information or screenshots relating to the bug here.
+      If building from source please provide the commit hash here.
   validations:
     required: false
