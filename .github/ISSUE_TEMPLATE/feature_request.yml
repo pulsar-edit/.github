@@ -1,41 +1,47 @@
 name: New Pulsar Feature request
-description: Got an idea for us?
-title: ":bulb: [Feature: ]"
+description: 💡 Got an idea for us?
 labels: ["enhancement", "documentation"]
 body:
+- type: checkboxes
+  attributes:
+    description: "Check the backlog of issues to reduce the chances of creating duplicates; if a request already exists, place a `+1` (👍) on it."
+    label: "Have you checked for existing feature requests?"
+    options:
+      - label: Completed
+        required: true
 - type: textarea
   id: summary
   attributes:
     label: Summary
     placeholder: |
-      Please give a detailed explanation of the feature you need.
+      Please give a detailed explanation of your feature idea including mockups/screenshots to present your vision.
   validations:
     required: true
 - type: textarea
-  id: movtivation
+  id: motivation
   attributes:
-    description: "What is the motivation for doing this?"
+    description: "What benefits does this feature provide?"
     label: "Enter your response below:"
-    placeholder: What's the reasoning for adding this feature and/or package? What uses are there for this?
+    placeholder: What problem does this feature solve or what additional benefits/value does it add?
   validations:
     required: true
-- type: input
+- type: textarea
   id: alternatives
   attributes:
     description: |
-      "Are there any other possible alternatives? (Is this really the best solution or only option to add this feature? Could it be a plugin?)"
+      Are there any other possible alternatives? (Is this really the best solution or only option to add this feature? Could it be a community package?)
     label: "Any alternatives?"
     placeholder: |
-      A clear and concise description of the alternative solutions you've considered. Be sure to explain why Atom's existing customizability isn't suitable for this feature.
+      A clear and concise description of the alternative solutions you've considered. Be sure to explain why Pulsar's existing customizability isn't suitable for this feature.
   validations:
     required: true
-- type: input
-  id: additional-context
+- type: textarea
+  id: prior-examples
   attributes:
     description: |
-      "Please provide any additional context for this:"
-    label: "Addiional context:"
+      Do you know of any examples of this feature in other applications?
+    label: "Other examples:"
     placeholder: |
-      Add any other context or screenshots about the feature request here.
+      Add examples here - application name, screeenshots of the feature etc.
   validations:
     required: false
