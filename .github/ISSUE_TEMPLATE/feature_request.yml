@@ -1,5 +1,5 @@
-name: New Pulsar Feature request
-description: 💡 Got an idea for us?
+name: 💡 New Feature Request
+description: Got an idea for us?
 labels: ["enhancement", "documentation"]
 body:
 - type: checkboxes
