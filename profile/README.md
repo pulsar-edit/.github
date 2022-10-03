@@ -14,14 +14,13 @@ For where to contribute or where our progess is right now there are these as sta
 
 * [Frequently Asked Questions](https://github.com/pulsar-edit/.github/blob/main/FAQ.md)
 * [Contributing Right Now](https://github.com/pulsar-edit/.github/blob/main/project-birth/CONTRIBUTING-DURING-START.md)
-
-
+* [Hop Right on in with some PR's and Issues](https://github.com/pulls?q=is%3Aopen+user%3Apulsar-edit+archived%3Afalse+sort%3Acomments-asc)
 * [Pulsar Roadmap Project](https://github.com/orgs/pulsar-edit/projects/3)
 * [Editor Modernization Project](https://github.com/orgs/pulsar-edit/projects/1)
 * [Backend Roadmap Project](https://github.com/orgs/pulsar-edit/projects/2)
 * [Tentative Roadmap Discussion](https://github.com/orgs/pulsar-edit/discussions/2)
 * [Documentation Roadmap Project Board](https://github.com/orgs/pulsar-edit/projects/7)
-* [Hop Right on in with some PR's and Issues](https://github.com/pulls?q=is%3Aopen+user%3Apulsar-edit+archived%3Afalse+sort%3Acomments-asc)
+
 
 For other support feel free to join us here:
 - [Discord Server](https://discord.gg/7aEbB9dGRT).
