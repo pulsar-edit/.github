@@ -1,6 +1,6 @@
 name: 🐛 New Bug Report
 description: Help Pulsar improve by filing a bug report
-labels: ["bug", "triage", "question", "modernization"]
+labels: ["bug", "triage"]
 body:
 - type: checkboxes
   id: initiative-check
