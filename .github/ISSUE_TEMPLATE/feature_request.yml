@@ -1,6 +1,6 @@
 name: 💡 New Feature Request
 description: Got an idea for us?
-labels: ["enhancement", "documentation"]
+labels: ["enhancement"]
 body:
 - type: checkboxes
   attributes:
