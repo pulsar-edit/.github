@@ -23,5 +23,5 @@ For where to contribute or where our progess is right now there are these as sta
 
 
 For other support feel free to join us here:
-- [Discord Server](https://discord.gg/7aEbB9dGRT).
+- [Discord Server](https://discord.gg/7aEbB9dGRT)
 - [Reddit](https://www.reddit.com/r/pulsaredit/)
