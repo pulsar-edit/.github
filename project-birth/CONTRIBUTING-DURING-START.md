@@ -12,7 +12,7 @@ At this time here are some of the easiest ways to help the community during this
   * [Rebranding in Code](#rebranding-in-code)
 * [Simplifying and Bringing up to Standards](#simplifying-and-bringing-up-to-our-standards)
   * [Handle Template Files](#handle-template-files)
-  * [Contributing.md](#contributing.md)
+  * [Contributing.md](#contributingmd)
 * [Decaffeination](#decaffeination)
   * [CoffeeScript 1.x or 2.x](#coffeescript-1.x-or-2.x)
   * [How to Decaffeinate](#how-to-decaffeinate)
