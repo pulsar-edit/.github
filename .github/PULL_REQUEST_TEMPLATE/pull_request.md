@@ -6,7 +6,9 @@ about: Open a PR for this project
 ### Requirements
 
 * Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion.
-* All new code requires tests to ensure against regressions
+* All new code requires tests to ensure against regressions.
+  * However, if your PR contains zero code changes, such as in the event of a PR for Markdown files. Pulsar [PR 109](https://github.com/pulsar-edit/pulsar/pull/109) allows for the use of `[skip-ci]`, `[skip-package-ci]`, or `[skip-editor-ci]` at the start of your PR title.
+  * This only disables the workflows for the `pull_request`, the workflows will still run after merging.
 
 ### Description of the Change
 
