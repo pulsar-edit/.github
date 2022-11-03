@@ -1,0 +1,33 @@
+name: Bug Report - Website Issues
+description: Help improve our websites by filing a bug report!
+labels: ["bug"]
+body:
+  - type: checkboxes
+    id: initiative-check
+    attributes:
+      label: Thanks in advance for your bug report!
+      description: "Please make sure you have done the following:"
+      options:
+        - label: Have you reproduced this issue in incognito/private browsing?
+          required: true
+        - label: Have you made sure you issue doesn't already exist?
+          required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What's your issue?
+      placeholder: Tell use what happened!
+    validations:
+      required: true
+  - type: textarea
+    id: os-info
+    attributes:
+      label: Which OS/Browser/Version does this happen on?
+      placeholder: Windows 10/Chrome/107.0.5304.88-Stable
+  - type: textarea
+    id: additional-context
+    attributes:
+      description: "What steps are needed to produce this issue? Any other details to add?"
+      label: "Steps to Reproduce/Additional Details:"
+    validations:
+      required: false
