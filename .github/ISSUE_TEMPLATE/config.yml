@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
 - name: Organization wide discussions
-  link: https://github.com/orgs/pulsar-edit/discussions
+  url: https://github.com/orgs/pulsar-edit/discussions
   about: For any discussion within our community
 - name: Discord
   url: https://discord.gg/7aEbB9dGRT
