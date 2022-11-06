@@ -13,6 +13,13 @@ body:
         - label: Have you made sure you issue doesn't already exist?
           required: true
   - type: textarea
+    id: where
+    attributes:
+      label: Where is the URL that this occurs?
+      placeholder: https://example.pulsar-edit.dev/example
+    validations:
+      required: true
+  - type: textarea
     id: what-happened
     attributes:
       label: What's your issue?
