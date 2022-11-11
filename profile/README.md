@@ -1,5 +1,7 @@
 # Welcome to Pulsar
 
+## Pulsar, a Community-led Hyper-Hackable Text Editor
+
 Pulsar, or sometimes referred to as Pulsar-Edit is a new image of the beloved 'Hackable Text Editor' [Atom](https://github.com/atom/atom).
 
 After the announcement of [Atom's sunset](https://github.blog/2022-06-08-sunsetting-atom/), the community came together to keep Atom alive via the longstanding fork [Atom-Community](https://github.com/atom-community/atom).
