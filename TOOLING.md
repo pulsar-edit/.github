@@ -8,7 +8,7 @@ Here you will find a list of tools used by the Pulsar team and information about
 
 ## i18n (Internationalization)
 
-[Crowding](https://crowdin.pulsar-edit.dev/) will be used for Pulsar's internationalization efforts but exact details on this are still pending.
+[Crowdin](https://crowdin.pulsar-edit.dev/) will be used for Pulsar's internationalization efforts but exact details on this are still pending.
 
 ## Additional Testing tools
 
