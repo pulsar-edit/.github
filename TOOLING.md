@@ -8,7 +8,7 @@ Here you will find a list of tools used by the Pulsar team and information about
 
 Cirrus CI is used for Pulsar's continuous integration as well as for building application binaries.
 
-#### [Codacy](https://app.codacy.com/gh/pulsar-edit/repositories)
+### [Codacy](https://app.codacy.com/gh/pulsar-edit/repositories)
 
 Codacy is used to scan committed code for any issues that may have been missed.
 
