@@ -29,8 +29,8 @@ Crowdin will be used for Pulsar's internationalization efforts but exact details
 
 While most repositories you can easily tell what Package Manager is being used by checking for a specific lock file, there are some execptions to this that should be noted.
 
-* [pulsar](https://github.com/pulsar-edit/pulsar) uses `yarn` as it's Package Manager.
-* [pulsar-edit.github.io](https://github.com/pulsar-edit/pulsar-edit.github.io) uses `pnpm` as it's Package Manager.
+* [pulsar](https://github.com/pulsar-edit/pulsar) uses `yarn` as its Package Manager.
+* [pulsar-edit.github.io](https://github.com/pulsar-edit/pulsar-edit.github.io) uses `pnpm` as its Package Manager.
 
 ## Cloud Database
 
