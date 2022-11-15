@@ -6,7 +6,7 @@ The following is a set of guidelines for contributing to Pulsar and its packages
 
 ---
 
-Its also worth mentioning, that while many items here to apply, during our early stages as an Organization, there are [special guidelines to consider.](https://github.com/pulsar-edit/.github/blob/main/project-birth/CONTRIBUTING-DURING-START.md) 
+Its also worth mentioning, that while many items here to apply, during our early stages as an Organization, there are [special guidelines to consider.](https://github.com/pulsar-edit/.github/blob/main/project-birth/CONTRIBUTING-DURING-START.md)
 
 ---
 
@@ -201,6 +201,16 @@ Please follow these steps to have your contribution considered by the maintainer
 
 While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
 
+#### About Abandoned Pull Requests
+
+It happens that a pull request is started but not finished and despite our attempts to contact the contributor, we don't hear from them again.
+
+In that case we will not merge the pull request, even if only small changes are missing. Our policy is simply to close the pull request. Why? Because an unfinished pull request essentially means giving us work and moving on. We would rather not encourage this behavior.
+
+Also, please note that since we have spent time reviewing the pull request and proposing solutions, we reserve the right to re-use that knowledge to create a new pull request, potentially based on your changes.
+
+We'd much prefer that you complete the pull request though, so we'll be sure to ping you a few times before that!
+
 ## Styleguides
 
 ### Git Commit Messages
@@ -240,7 +250,7 @@ All JavaScript code is linted with [Prettier](https://prettier.io/).
 
 ### CoffeeScript Styleguide
 
-* Its also important to note that CoffeeScript is depreciated, while the codebase is decaffeinated. 
+* It's also important to note that CoffeeScript is deprecated, while the codebase is decaffeinated.
 * Set parameter defaults without spaces around the equal sign
     * `clear = (count=1) ->` instead of `clear = (count = 1) ->`
 * Use spaces around operators
