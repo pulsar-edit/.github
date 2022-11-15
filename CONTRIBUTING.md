@@ -250,7 +250,7 @@ All JavaScript code is linted with [Prettier](https://prettier.io/).
 
 ### CoffeeScript Styleguide
 
-* Its also important to note that CoffeeScript is depreciated, while the codebase is decaffeinated.
+* It's also important to note that CoffeeScript is deprecated, while the codebase is decaffeinated.
 * Set parameter defaults without spaces around the equal sign
     * `clear = (count=1) ->` instead of `clear = (count = 1) ->`
 * Use spaces around operators
