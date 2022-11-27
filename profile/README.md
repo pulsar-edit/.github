@@ -28,3 +28,4 @@ For other support feel free to join us here:
 - [GitHub Discussions](https://github.com/orgs/pulsar-edit/discussions)
 - [Discord Server](https://discord.gg/7aEbB9dGRT)
 - [Reddit](https://www.reddit.com/r/pulsaredit/)
+- [Mastodon](https://fosstodon.org/@pulsaredit)
