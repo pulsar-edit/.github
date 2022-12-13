@@ -1,7 +1,7 @@
 # Pulsar Edit Privacy Policy
 
-The team on Pulsar greatly values yours, and everyones privacy. In that respect we keep any collection of personal data to an absolute minium,
-but for what little is collected across the entirety of the Pulsar Edit Project will be detailed here.
+The Pulsar team greatly values your, and everybody's, privacy. We therefore keep any collection of personal data to an absolute minimum,
+but what little is collected across the entirety of the Pulsar Project will be detailed here.
 
 At the bottom of each service listed in this document there will be a "TLDR" to quickly sum up all data that is collected, how it's used, and who can use it.
 
@@ -10,11 +10,9 @@ Date of the Last Change to the Privacy Policy:
 
 ## Pulsar Backend (`https://api.pulsar-edit.dev`)
 
-The Pulsar Backend is the service you connect to when using all Pulsar Packages on the web via `https://web.pulsar-edit.dev`
-and when using the ability the built in Pulsar Settings Pane to interact with community packages.
+The Pulsar Backend is the service you connect to when using all Pulsar Packages on the web via `https://web.pulsar-edit.dev` and when using the built in Pulsar [Settings View](https://github.com/pulsar-edit/settings-view) or [Package Manager](https://github.com/pulsar-edit/ppm) to interact with community packages.
 
-This does mean any interaction to these services such as browsing, publishing, installing, deleting, starring, or unstarring all go through the above service, 
-and all actions are subject to this service's Privacy Policy.
+All actions are subject to this service's Privacy Policy, including browsing, publishing, installing, deleting, starring, or unstarring packages.
 
 Over the course of using the Pulsar Backend the following personal details are collected about you, and used as described below.
 
@@ -48,10 +46,10 @@ The logs that contain the above information is kept in the cloud for 30 days bef
 * The only people that have access to these logs are Pulsar's Core Admin Team in charge of the Pulsar Backend.
 * The only reason this data is used is to aid in troubleshooting when/if needed.
 
-## Pulsar User Account 
+## Pulsar User Account
 
-When you create a user account with Pulsar, to star, and publish packages you provide some details to Pulsar to create the account.
-But it should be made explicit that Pulsar does not store any type of credentials your account at any time.
+When you create a user account with Pulsar to star, or publish packages, you provide some details to Pulsar to create the account.
+It should be made explicit that Pulsar does not store any type of credentials your account at any time.
 
 ### What Information is Collected
 
@@ -61,12 +59,11 @@ But it should be made explicit that Pulsar does not store any type of credential
 
 ### How is this Information Collected
 
-When you sign up with Pulsar, and choose to make an account, this is the data collected to make sure your account works, and is able to protect Packages from malicious
-Actors pretending to be someone they're not.
+When you sign up with Pulsar, and choose to make an account, this is the data collected to make sure your account works, and is able to protect Packages from Malicious Actors pretending to be someone they're not.
 
 ### What is Done with this Information
 
-This information is used to let you authenticate against the Pulsar Backend, when publishing, deleted, or starring a package.
+This information is used to let you authenticate against the Pulsar Backend when publishing, deleted, or starring a package.
 
 ### Who has Access to this Information
 
@@ -78,12 +75,12 @@ The above details will be kept until either you request deletion of your account
 
 ### How do I have this Information Deleted
 
-To request removal of the above details feel free to contact the Pulsar Core Admin Team, through any of the [supported methods](https://pulsar-edit.dev/community.html).
-But the recommended method would be to contact @Admins on the [Pulsar Discord](https://discord.gg/7aEbB9dGRT) or via email to admin@pulsar-edit.dev
+To request removal of the above details feel free to contact the Pulsar Core Admin Team, for quicker response times, contact use through the [Pulsar Discord](https://discord.gg/7aEbB9dGRT).
+Or you can contact us through any of the [supported methods](https://pulsar-edit.dev/community.html), or even via email to admin@pulsar-edit.dev
 
 ### TLDR
 
-* Creating a Pulsar User Account provides Pulsar with your GitHub name, GitHub Gravatar URL, and GitHub `node_id`.
+* Creating a Pulsar User Account provides Pulsar-Edit with your GitHub name, GitHub Gravatar URL, and GitHub `node_id`.
 * This information is kept until you request deletion or there is a built in way to delete your Pulsar User Account.
 * The only people who can access this information is the Pulsar Core Admin Team.
 * This information is purely there to help you use the Pulsar Backend to publish, delete, star, or otherwise interact with Packaages.
@@ -94,7 +91,7 @@ But the recommended method would be to contact @Admins on the [Pulsar Discord](h
 The Pulsar Website is a service you connect to anytime you visit our website.
 
 This Website is hosted on [GitHub Pages](https://pages.github.com/) which while conveinent for us, also means that we have no built in mechanism to access any personal data of any kind through this service.
-That is to say we don't, no analytics are setup on the website, and no extra code is run on the website to collect any data.
+That is to say we don't; no analytics are set up on the website, and no extra code is run on the website to collect any data.
 
 ### TLDR
 
@@ -106,8 +103,7 @@ That is to say we don't, no analytics are setup on the website, and no extra cod
 
 The main Pulsar Application, available [here](https://github.com/pulsar-edit/pulsar) is the program you use anytime you launch Pulsar, or edit text within it.
 
-While [Atom](https://atom.io) the original creator of the Editor did collect telemetry and metrics about the users, when we began work on the editor one of the first
-things that were removed, was the [telemetry](https://github.com/pulsar-edit/pulsar/pull/40).
+While [Atom](https://atom.io) the original implementation of the Editor did collect telemetry and metrics about the users, when we began work on the editor one of the first things that we removed was the [telemetry](https://github.com/pulsar-edit/pulsar/pull/40).
 
 That is to say now, the Pulsar Editor collects **Zero** information about it's users.
 
