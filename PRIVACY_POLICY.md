@@ -3,6 +3,8 @@
 The Pulsar team greatly values your, and everybody's, privacy. We therefore keep any collection of personal data to an absolute minimum,
 but what little is collected across the entirety of the Pulsar Project will be detailed here.
 
+Also please note that this Privacy Policy excludes any Community Packages that may be installed as those are created and maintained by a third party.
+
 At the bottom of each service listed in this document there will be a "TLDR" to quickly sum up all data that is collected, how it's used, and who can use it.
 
 Date of the Last Change to the Privacy Policy:
