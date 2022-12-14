@@ -107,7 +107,7 @@ The main Pulsar Application, available [here](https://github.com/pulsar-edit/pul
 
 While [Atom](https://atom.io) the original implementation of the Editor did collect telemetry and metrics about the users, when we began work on the editor one of the first things that we removed was the [telemetry](https://github.com/pulsar-edit/pulsar/pull/40).
 
-That is to say now, the Pulsar Editor collects **Zero** information about it's users.
+That is to say now, the Pulsar Editor collects **Zero** information about its users.
 
 ### TLDR
 
