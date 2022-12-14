@@ -12,7 +12,7 @@ Date of the Last Change to the Privacy Policy:
 
 ## Pulsar Backend (`https://api.pulsar-edit.dev`)
 
-The Pulsar Backend is the service you connect to when using all Pulsar Packages on the web via `https://web.pulsar-edit.dev` and when using the built in Pulsar [Settings View](https://github.com/pulsar-edit/settings-view) or [Package Manager](https://github.com/pulsar-edit/ppm) to interact with community packages.
+The Pulsar Backend is the service you connect to when using all Pulsar Packages on the web via `https://web.pulsar-edit.dev` and when using the built in Pulsar Settings View or [Package Manager](https://github.com/pulsar-edit/ppm) to interact with community packages.
 
 All actions are subject to this service's Privacy Policy, including browsing, publishing, installing, deleting, starring, or unstarring packages.
 
