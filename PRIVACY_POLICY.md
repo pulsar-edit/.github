@@ -85,7 +85,7 @@ Or you can contact us through any of the [supported methods](https://pulsar-edit
 * Creating a Pulsar User Account provides Pulsar-Edit with your GitHub name, GitHub Gravatar URL, and GitHub `node_id`.
 * This information is kept until you request deletion or there is a built in way to delete your Pulsar User Account.
 * The only people who can access this information is the Pulsar Core Admin Team.
-* This information is purely there to help you use the Pulsar Backend to publish, delete, star, or otherwise interact with Packaages.
+* This information is purely there to help you use the Pulsar Backend to publish, delete, star, or otherwise interact with Packages.
 * Pulsar User Accounts contain **Zero** details of how you log in, or any type of API, OAuth, or other token to access your account.
 
 ## Pulsar Website (`https://pulsar-edit.dev`)
