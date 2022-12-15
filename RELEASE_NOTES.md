@@ -14,6 +14,6 @@ We've gotten some miscellaneous fixes and upgrades in, as well as a (mostly) tho
 
 Over all, we hope you enjoy the release, take a look, kick the tires, let us know what you think. Report any issues you find, and maybe we'll be able to put together a fix. Likewise, if you have a fix handy, feel free to open a Pull Request. Happy coding, see you among the stars!
 
-- Pulsar Team
+- The Pulsar Team
 
 --- Below could then be the full change log taken from ChangeLog.md ---
