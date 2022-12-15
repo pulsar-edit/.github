@@ -6,7 +6,7 @@ Presumably we will be able to continiously update this document with more releas
 # First (Beta) Tagged Release of Pulsar -- Get it while it's hot!
 
 We have some nice changes to give you a good first experience of what Pulsar is going to be like. Mostly, it's Atom, but still functioning. We've replaced the Package Backend (previously closed source) with a brand new one (Open Source!) -- see [this blog post](https://pulsar-edit.dev/blog/20221127-confused-Techie-SunsetMisadventureBackend.html) for more details.
-We have even migrated all original Packages from Atom to Pulsar, so feel free to find and download your favourites! A quick note about packages, if you have any questions or concerns about our migrated packages refer to [here]().
+We have even migrated all original Packages from Atom to Pulsar, so feel free to find and download your favourites! A quick note about packages, if you have any questions or concerns about our migrated packages refer to [here](https://github.com/pulsar-edit/package-backend/blob/main/docs/reference/packages.md).
 
 Also new is Electron 12, and binaries for ARM, both on Linux and MacOS (yes, that's an Apple Silicon native build). In general, several new package formats are available, feel free to [try them out](https://pulsar-edit.dev/download.html) and find what suits you.
 
