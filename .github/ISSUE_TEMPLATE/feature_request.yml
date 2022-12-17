@@ -20,8 +20,8 @@ body:
 - type: textarea
   id: motivation
   attributes:
-    description: "What benefits does this feature provide?"
-    label: "Enter your response below:"
+    label: "What benefits does this feature provide?"
+    description: "Enter your response below:"
     placeholder: What problem does this feature solve or what additional benefits/value does it add?
   validations:
     required: true
