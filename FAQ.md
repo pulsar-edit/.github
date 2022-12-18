@@ -39,7 +39,7 @@ At this time, here is our current stance:
 
 Firstly, moving away from Node and Electron will mean a compelete rewrite of the whole editor, something we do not have the manpower to do.
 
-Additionally moving away from these technologies will break every single package we have. The ecosystem of Atom and it's community packages is a huge reason we wanted to keep it alive, rendering these complete useless removes one of the biggest advantages of the editor as a whole, and asking every single package author to rewrite their packages is not realistic.
+Additionally moving away from these technologies will break every single package we have. The ecosystem of Atom and it's community packages is a huge reason we wanted to keep it alive, rendering these completely useless removes one of the biggest advantages of the editor as a whole, and asking every single package author to rewrite their packages is not realistic.
 
 Even all of our own packages will need to be rewritten, and all of our Native Packages, which are already some of the most combersome to maintain, will no longer function in this new environment.
 
