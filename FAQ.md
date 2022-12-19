@@ -43,6 +43,6 @@ Additionally moving away from these technologies will break every single package
 
 Our own packages would have to be rewritten along with all of our Native Packages (which are already some of the most cumbersome to maintain) which would no longer function in this new environment.
 
-Lastly, Atom is the editor that created Electron, while it may have it's idiosyncrasies, we feel that it seems almost wrong to ditch it for some hot new thing.
+Lastly, Atom is the editor that created Electron, while it may have its idiosyncrasies, we feel that it seems almost wrong to ditch it for some hot new thing.
 
 The focus of our team as seen by our mission statement is to modernize and improve Atom, bringing it up to date, and create a proud sucessor of Atom called Pulsar. It is not to create a brand new editor from scratch.
