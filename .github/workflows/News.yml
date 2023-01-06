@@ -26,12 +26,10 @@ jobs :
                 with :
                     
                     deno-version : v1.29
-
-            -   name : Goto Updater
-                run : cd News
-
+                
             -   name : Run Updater
-                run : deno task build
+                working-directory: ./News
+                run : deno task update
                 
             -   name : Commit Page
                 uses : EndBug/add-and-commit@v9
