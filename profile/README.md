@@ -29,3 +29,20 @@ For other support feel free to join us here:
 - [Discord Server](https://discord.gg/7aEbB9dGRT)
 - [Reddit](https://www.reddit.com/r/pulsaredit/)
 - [Mastodon](https://fosstodon.org/@pulsaredit)
+
+
+<br>
+<br>
+
+
+
+<!---------------------------------- 🗞 News ---------------------------------->
+ 
+
+ 
+<!---------------------------------- 🗞 News ---------------------------------->
+
+
+
+
+<br>
