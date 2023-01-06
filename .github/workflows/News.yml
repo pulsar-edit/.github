@@ -4,6 +4,16 @@ name : Update News Section
 on :
     workflow_dispatch :
 
+    push :
+
+        branches :
+            
+            -   'main'
+            
+        paths :
+            
+            -   'News/Data/News.yaml'
+
 
 concurrency:
 
