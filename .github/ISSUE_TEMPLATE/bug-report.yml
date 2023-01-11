@@ -8,13 +8,13 @@ body:
     label: Thanks in advance for your bug report!
     description: "Please make sure you have done the following:"
     options:
-      - label: Have you reproduced issue in [safe mode](https://pulsar-edit.dev/docs/atom-archive/faq/sections/what-does-safe-mode-do.html)? 
+      - label: Have you reproduced issue in [safe mode](https://pulsar-edit.dev/docs/atom-archive/faq/sections/what-does-safe-mode-do.html)?
         required: true
-      - label: Have you used the [debugging guide](https://pulsar-edit.dev/docs/atom-archive/hacking-atom/#debugging) to try to resolve the issue? 
+      - label: Have you used the [debugging guide](https://pulsar-edit.dev/docs/atom-archive/hacking-atom/#debugging) to try to resolve the issue?
         required: true
       - label: "Have you checked our [FAQs](https://pulsar-edit.dev/docs/launch-manual/sections/faq/) to make sure your question isn't answered there?"
         required: true
-      - label: Have you checked to make sure your issue does not already [exist](https://github.com/issues?q=is%3Aissue+user%3Apulsar-edit+is%3Aopen)? 
+      - label: Have you checked to make sure your issue does not already [exist](https://github.com/issues?q=is%3Aissue+user%3Apulsar-edit+is%3Aopen)?
         required: true
       - label: Have you checked you are on the latest release of Pulsar?
         required: true
@@ -29,8 +29,8 @@ body:
   id: pulsar-version
   attributes:
     label: Pulsar version
-   validations:
-     required: true
+  validations:
+    required: true
 - type: dropdown
   id: os-info
   attributes:
