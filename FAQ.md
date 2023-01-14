@@ -46,3 +46,16 @@ Our own packages would have to be rewritten along with all of our Native Package
 Lastly, Atom is the editor that created Electron, while it may have its idiosyncrasies, we feel that it seems almost wrong to ditch it for some hot new thing.
 
 The focus of our team as seen by our mission statement is to modernize and improve Atom, bringing it up to date, and create a proud sucessor of Atom called Pulsar. It is not to create a brand new editor from scratch.
+
+# Why don't you move from GitHub to another platform like GitLab or Codeberg?
+
+At this time we simply believe it would be counter-productive to do so. Pulsar (and Atom before it) is still reliant on GitHub.  
+
+For example:
+* Our build tools and pipeline have strict compatibility with GitHub.
+* Our testing suite has been written specifically for GitHub.
+* Our Package Backend (As was the way of Atom's Package Registry) has been written only for GitHub.
+
+As one of the very first goals of the project was to get Pulsar up and running as fast possible and GitHub simply made the most sense from a tooling perspective as well as it being the biggest community to get both exposure and contributions.
+
+We aren't ruling out anything for the future, we may decide to mirror this repo or migrate entirely but this isn't high on our current priorities as it simply doesn't provide any significant benefit to the project at this time.
