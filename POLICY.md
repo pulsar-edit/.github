@@ -6,7 +6,7 @@ This document will lay out the official policies used within the Pulsar Edit Pro
 
 A cornerstone of the way the Pulsar team interacts with the community is via Polls. These polls are usually created on Discord, but may in the future be expanded to other platforms as needed.
 
-A Poll is used to allow the community at large to easily and quickly contribute to a conversation and provide thier opinions on future development or goals of the Pulsar Project.
+A Poll is used to allow the community at large to easily and quickly contribute to a conversation and provide their opinions on future development or goals of the Pulsar Project.
 
 * Whenever a decision will effect a large percentage of users/contributors, a change is substantal enough, or will drastically effect a small percentage of users/contributors then a poll must be made.
 * A Poll must be available for voting for at least 24 hours, to accommodate different timezones, and work schedules. Polls can be longer than this, but must never be shorter.
