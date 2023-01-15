@@ -1,6 +1,6 @@
 # Policy
 
-This document will lay out the official policies used within the Pulsar Edit Project. Documenting the policies that have come out of our normal usage, that deserve to be properly documented and viewable by anyone.
+This document will lay out the official policies used within the Pulsar Edit Project. This document lists the various policies that have come about naturally as the project progressed and so deserve to be properly documented and viewable by anyone.
 
 ## Polls
 
