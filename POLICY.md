@@ -8,9 +8,10 @@ A cornerstone of the way the Pulsar team interacts with the community is via Pol
 
 A Poll is used to allow the community at large to easily and quickly contribute to a conversation and provide their opinions on future development or goals of Pulsar-Edit.
 
-* Whenever we need to make a decision that will affect a large percentage of users/contributors, make a substantial enough change, drastically affect a small percentage of users/contributors then a poll must be made.
-* A Poll must be available for voting for at least 24 hours to accommodate different timezones and work schedules. Polls may be longer than this, but must never be shorter.
-* If a poll fails, then you must not recreate the exact same poll right afterwards. If the same idea has new merit or new validation at a later time, communicate with the community to determine if another poll is reasonable.
+* Whenever we need to make a decision that will affect a large percentage of users/contributors, make a substantial enough change, drastically affect a small percentage of users/contributors then a poll should be made.
+* A Poll should be available for voting for at least 24 hours to accommodate different timezones and work schedules. Polls may be longer than this, but should never be shorter.
+* If a poll fails, then you should not recreate the exact same poll right afterwards. If the same idea has new merit or new validation at a later time, communicate with the community to determine if another poll is reasonable.
+* In some circumstances a poll that meets these criteria will not be made, this is generally the result of the decision being the only viable way to move forward, or if there is already a good enough consensus of the Admin Team.
 
 ## Repeat Questions
 
