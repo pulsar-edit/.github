@@ -4,7 +4,7 @@ This document will lay out the official policies used within the Pulsar Edit Pro
 
 ## Polls
 
-A cornerstone of the way Pulsar interacts with the community is via Polls. These polls are usually created on Discord, but may in the future be expanded to other platforms as needed.
+A cornerstone of the way the Pulsar team interacts with the community is via Polls. These polls are usually created on Discord, but may in the future be expanded to other platforms as needed.
 
 A Poll is used to allow the community at large to easily and quickly contribute to a conversation and provide thier opinions on future development or goals of the Pulsar Project.
 
