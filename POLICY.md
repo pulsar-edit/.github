@@ -14,7 +14,7 @@ A Poll is used to allow the community at large to easily and quickly contribute 
 
 ## Repeat Questions
 
-Many times Pulsar throughout our various social platforms will receive repeated suggestions, and sometimes these suggestions are untenable for whatever various reasons. In these cases if we find ourselves repeatedly using the same answer, a discussion will happen at the Pulsar Admin Team level, on whether or not to add this conversation to our official [FAQ](https://github.com/pulsar-edit/.github/blob/main/FAQ.md) at which point, if agreed a PR will be made, and the community at large will be able to discuss it being added. At which point if it's added that now becomes the official stance and will be used in further discussion on the topic.
+Many times Pulsar throughout our various social platforms will receive repeated suggestions, and sometimes these suggestions are untenable for whatever reasons. In these cases if we find ourselves repeatedly using the same answer, a discussion will happen at the Pulsar Admin Team level on whether or not to add this conversation to our official [FAQ](https://github.com/pulsar-edit/.github/blob/main/FAQ.md) at which point, if agreed, a PR will be made and the community will be able to discuss it being added. The wording in that PR, if merged, then becomes the official stance on the topic and will be used in any further discussions.
 
 ## Pull Request Merging
 
