@@ -31,7 +31,7 @@ We accept and encourage all donations to the project. These donations help Pulsa
 
 A donation to Pulsar-Edit will always be used for the greater good of the editor and its ecosystem. However, donators must understand that the use of funds will be left to the discretion of the Pulsar team.
 
-Any money donated can and will be used used for Pulsar-Edit. A donation, unless as part of a gift for donating or other specifically indicated event, does not allow a donator any extra say in how the Pulsar team will operate. A donation does not allow directed use of the funds, nore does it allow control of the funds after they have been donated.
+Any money donated can and will be used used for Pulsar-Edit. A donation, unless as part of a reward for donating or other specifically indicated event, does not allow a donator any extra say in how the Pulsar team will operate. A donation does not allow directed use of the funds, nore does it allow control of the funds after they have been donated.
 
 Quickly put:
 
