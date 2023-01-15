@@ -27,7 +27,7 @@ We get a lot of them, and there's not always enough of us to review everything i
 
 ## Donations
 
-We accept and encourage contributors to donate to the platform when they fiscally can. As these donations help Pulsar be great, and do what it needs to do.
+We accept and encourage all donations to the project. These donations help Pulsar be great, and to achieve our goals.
 
 A donation through Pulsar will always be used for the greater good of the editor and it's ecosystem at large. But donators must understand that the use of funds will be dependent on the discretion of Pulsars Core Maintainers.
 
