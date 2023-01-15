@@ -37,4 +37,4 @@ Quickly put:
 
 When you donate to Pulsar, we are __not__ promising to spend money on anything in particular, nor will we necessarily be spending funds on anything other than our basic operating costs. Ultimately, the Pulsar team reserves discretion to use the funds in the best interests of the Pulsar Project, and any decisions are ultimately done by the team in their capacity as folks with the responsibility over the project.
 
-We thank you for any understanding, and sincerely appreciate, and express gratitude to anyone who donates.
+We thank you for any understanding, and we sincerely appreciate and express gratitude to anyone who donates.
