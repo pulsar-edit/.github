@@ -18,9 +18,9 @@
 #   Warning:
 #   --------
 #   
-#   Lines shouldn't be longer than 50 characters.
+#   Lines shouldn't be longer than 40 characters.
 #
-##########################################################| Stop Here
+#######|<-------------------------------------->| Stop Here
 #
 
 -   title : 🗃 [Backend Feature]
