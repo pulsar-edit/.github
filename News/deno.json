@@ -1,8 +1,0 @@
-{
-    "importMap" : "Imports.json" ,
-
-    "tasks" : {
-        "develop" : "deno run --watch=Source,Data --allow-read=Data,../profile/README.md --allow-write=../profile/README.md Source/App.ts" ,
-        "update" : "deno run --allow-read=Data,../profile/README.md --allow-write=../profile/README.md Source/App.ts"
-    }
-}
