@@ -32,8 +32,10 @@ jobs :
 
         steps :
 
-            -   name : Checkout
-                uses : actions/checkout@v3
+            -   name: Checkout
+                uses: actions/checkout@v3
+                with:
+                  ref: ${{ github.ref_name }}
 
             -   name : Run News Builder
                 uses : MarkedDown/News@1.0.0
