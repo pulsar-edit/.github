@@ -55,7 +55,7 @@ Feel free to contribute to the Pulsar-Edit Discussions to talk with the communit
 
 Pulsar is a large open source project &mdash; it's made up of over [200 repositories](https://github.com/pulsar-edit). When you initially consider contributing to Pulsar, you might be unsure about which of those 200 repositories implements the functionality you want to change or report a bug for. This section should help you with that.
 
-Pulsar is intentionally very modular. Nearly every non-editor UI element you interact with comes from a package, even fundamental things like tabs and the status-bar. These packages are packages in the same way that packages in the [Pulsar package repository](https://pulsar-edit.com/packages) are packages, with one difference: they are bundled into the [default distribution](https://github.com/pulsar-edit/pulsar).
+Pulsar is intentionally very modular. Nearly every non-editor UI element you interact with comes from a package, even fundamental things like tabs and the status-bar. These packages are packages in the same way that packages in the [Pulsar package repository](https://web.pulsar-edit.dev/packages) are packages, with one difference: they are bundled into the [default distribution](https://github.com/pulsar-edit/pulsar).
 
 <a id="pulsar-packages-image"/>
 
@@ -67,7 +67,7 @@ To see a list of repos that are within the org, you can refer to the [full repo 
 
 There are many more, but this list should be a good starting point. For more information on how to work with Pulsar's official packages, see [Contributing to Pulsar Packages][contributing-to-official-pulsar-packages].
 
-Also, because Pulsar is so extensible, it's possible that a feature you've become accustomed to in Pulsar or an issue you're encountering isn't coming from a bundled package at all, but rather a [community package](https://pulsar-edit.com/packages) you've installed. Each community package has its own repository too.
+Also, because Pulsar is so extensible, it's possible that a feature you've become accustomed to in Pulsar or an issue you're encountering isn't coming from a bundled package at all, but rather a [community package](https://web.pulsar-edit.dev/packages) you've installed. Each community package has its own repository too.
 
 #### Package Conventions
 
@@ -85,7 +85,7 @@ There are a few conventions that have developed over time around packages:
 
 ### Design Decisions
 
-When we make a significant decision in how we maintain the project and what we can or cannot support, we will document it in the [pulsar-edit/design-decisions repository](https://github.com/pulsar-edit/design-decisions). If you have a question around how we do things, check to see if it is documented there. If it is *not* documented there, please open a new topic on [Github Discussions, the official Pulsar message board](https://github.com/orgs/pulsar-edit/discussions) and ask your question.
+When we make a significant decision in how we maintain the project and what we can or cannot support, this will be discussed and possibly voted upon in our [Discord Server](https://discord.gg/7aEbB9dGRT). If you have a question around how we do things, check to see if it is documented there. If it is *not* documented there, please open a new topic on [Github Discussions, the official Pulsar message board](https://github.com/orgs/pulsar-edit/discussions) and ask your question.
 
 ## How Can I Contribute?
 
@@ -93,14 +93,14 @@ When we make a significant decision in how we maintain the project and what we c
 
 This section guides you through submitting a bug report for Pulsar. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
 
-Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/pulsar-edit/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
+Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/pulsar-edit/pulsar/issues/new?assignees=&labels=bug%2Ctriage&template=bug-report.yml), the information it asks for helps us resolve issues faster.
 
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 #### Before Submitting A Bug Report
 
-* **Check the [debugging guide](https://flight-manual.atom.io/hacking-atom/sections/debugging/).** You might be able to find the cause of the problem and fix things yourself. Most importantly, check if you can reproduce the problem [in the latest version of Pulsar](https://flight-manual.atom.io/hacking-atom/sections/debugging/#update-to-the-latest-version), if the problem happens when you run Pulsar in [safe mode](https://flight-manual.atom.io/hacking-atom/sections/debugging/#check-if-the-problem-shows-up-in-safe-mode), and if you can get the desired behavior by changing [Atom's or packages' config settings](https://flight-manual.atom.io/hacking-atom/sections/debugging/#check-atom-and-package-settings).
-* **Check the [faq](https://flight-manual.atom.io/faq/) and the [discussions](https://github.com/orgs/pulsar-edit/discussions)** for a list of common questions and problems.
+* **Check the [debugging guide](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#debugging).** You might be able to find the cause of the problem and fix things yourself. Most importantly, check if you can reproduce the problem [in the latest version of Pulsar](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#update-to-the-latest-version), if the problem happens when you run Pulsar in [safe mode](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#using-safe-mode), and if you can get the desired behavior by changing [Atom's or packages' config settings](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#check-pulsar-and-package-settings).
+* **Check the [faq](https://pulsar-edit.dev/docs/launch-manual/sections/faq/) and the [discussions](https://github.com/orgs/pulsar-edit/discussions)** for a list of common questions and problems.
 * **Determine [which repository the problem should be reported in](#pulsar-and-packages)**.
 * **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Apulsar)** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
 
@@ -116,14 +116,13 @@ Explain the problem and include additional details to help maintainers reproduce
 * **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.
 * **Explain which behavior you expected to see instead and why.**
 * **Include screenshots and animated GIFs** which show you following the described steps and clearly demonstrate the problem. If you use the keyboard while following the steps, **record the GIF with the [Keybinding Resolver](https://github.com/pulsar-edit/keybinding-resolver) shown**. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
-* **If you're reporting that Pulsar crashed**, include a crash report with a stack trace from the operating system. On macOS, the crash report will be available in `Console.app` under "Diagnostic and usage information" > "User diagnostic reports". Include the crash report in the issue in a [code block](https://help.github.com/articles/markdown-basics/#multiple-lines), a [file attachment](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/), or put it in a [gist](https://gist.github.com/) and provide link to that gist.
-* **If the problem is related to performance or memory**, include a [CPU profile capture](https://flight-manual.atom.io/hacking-atom/sections/debugging/#diagnose-runtime-performance) with your report.
-* **If Chrome's developer tools pane is shown without you triggering it**, that normally means that you have a syntax error in one of your themes or in your `styles.less`. Try running in [Safe Mode](https://flight-manual.atom.io/hacking-atom/sections/debugging/#using-safe-mode) and using a different theme or comment out the contents of your `styles.less` to see if that fixes the problem.
+* **If you're reporting that Pulsar crashed**, include a crash report with a stack trace from the operating system. On macOS, the crash report will be available in `Console.app` under "Diagnostic and usage information" > "User diagnostic reports". Include the crash report in the issue in a [code block](https://help.github.com/articles/markdown-basics/#multiple-lines), a [file attachment](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#diagnose-runtime-performance) with your report.
+* **If Chrome's developer tools pane is shown without you triggering it**, that normally means that you have a syntax error in one of your themes or in your `styles.less`. Try running in [Safe Mode](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#using-safe-mode) and using a different theme or comment out the contents of your `styles.less` to see if that fixes the problem.
 * **If the problem wasn't triggered by a specific action**, describe what you were doing before the problem happened and share more information using the guidelines below.
 
 Provide more context by answering these questions:
 
-* **Can you reproduce the problem in [safe mode](https://flight-manual.atom.io/hacking-atom/sections/debugging/#diagnose-runtime-performance-problems-with-the-dev-tools-cpu-profiler)?**
+* **Can you reproduce the problem in [safe mode](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#using-safe-mode)?**
 * **Did the problem start happening recently** (e.g. after updating to a new version of Pulsar) or was this always a problem?
 * If the problem started happening recently, **can you reproduce the problem in an older version of Pulsar?** What's the most recent version in which the problem doesn't happen? You can download older versions of Pulsar from [the releases page](https://github.com/pulsar-edit/pulsar/releases).
 * **Can you reliably reproduce the issue?** If not, provide details about how often the problem happens and under which conditions it normally happens.
@@ -131,11 +130,11 @@ Provide more context by answering these questions:
 
 Include details about your configuration and environment:
 
-* **Which version of Pulsar are you using?** You can get the exact version by running `pulsar -v` in your terminal, or by starting Pulsar and running the `Application: About` command from the [Command Palette](https://github.com/pulsar-edit/command-palette).
+* **Which version of Pulsar are you using?** You can get the exact version by running `pulsar -v` in your terminal, or by starting Pulsar and running the `Application: About` command from the [Command Palette](https://pulsar-edit.dev/docs/launch-manual/sections/getting-started/#command-palette).
 * **What's the name and version of the OS you're using**?
 * **Are you running Pulsar in a virtual machine?** If so, which VM software are you using and which operating systems and versions are used for the host and the guest?
 * **Which [packages](#pulsar-and-packages) do you have installed?** You can get that list by running `apm list --installed`.
-* **Are you using [local configuration files](https://flight-manual.atom.io/using-atom/sections/basic-customization/)** `config.cson`, `keymap.cson`, `snippets.cson`, `styles.less` and `init.js` to customize Pulsar? If so, provide the contents of those files, preferably in a [code block](https://help.github.com/articles/markdown-basics/#multiple-lines) or with a link to a [gist](https://gist.github.com/).
+* **Are you using [local configuration files](https://pulsar-edit.dev/docs/launch-manual/sections/using-pulsar/#basic-customization)** `config.cson`, `keymap.cson`, `snippets.cson`, `styles.less` and `init.js` to customize Pulsar? If so, provide the contents of those files, preferably in a [code block](https://help.github.com/articles/markdown-basics/#multiple-lines) or with a link to a [gist](https://gist.github.com/).
 * **Are you using Pulsar with multiple monitors?** If so, can you reproduce the problem when you use a single monitor?
 * **Which keyboard layout are you using?** Are you using a US layout or some other layout?
 
@@ -147,8 +146,8 @@ Before creating enhancement suggestions, please check [this list](#before-submit
 
 #### Before Submitting An Enhancement Suggestion
 
-* **Check the [debugging guide](https://flight-manual.atom.io/hacking-atom/sections/debugging/)** for tips — you might discover that the enhancement is already available. Most importantly, check if you're using [the latest version of Pulsar](https://flight-manual.atom.io/hacking-atom/sections/debugging/#update-to-the-latest-version) and if you can get the desired behavior by changing [Pulsar's or packages' config settings](https://flight-manual.atom.io/hacking-atom/sections/debugging/#check-atom-and-package-settings).
-* **Check if there's already [a package](https://pulsar-edit.com/packages) which provides that enhancement.**
+* **Check the [debugging guide](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#debugging)** for tips — you might discover that the enhancement is already available. Most importantly, check if you're using [the latest version of Pulsar](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#update-to-the-latest-version) and if you can get the desired behavior by changing [Pulsar's or packages' config settings](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#check-pulsar-and-package-settings).
+* **Check if there's already [a package](https://web.pulsar-edit.dev/packages) which provides that enhancement.**
 * **Determine [which repository the enhancement should be suggested in](#pulsar-and-packages).**
 * **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Apulsar)** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 
@@ -163,7 +162,7 @@ Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com
 * **Include screenshots and animated GIFs** which help you demonstrate the steps or point out the part of Pulsar which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
 * **Explain why this enhancement would be useful** to most Pulsar users and isn't something that can or should be implemented as a [community package](#pulsar-and-packages).
 * **List some other text editors or applications where this enhancement exists.**
-* **Specify which version of Pulsar you're using.** You can get the exact version by running `pulsar -v` in your terminal, or by starting Pulsar and running the `Application: About` command from the [Command Palette](https://github.com/pulsar-edit/command-palette).
+* **Specify which version of Pulsar you're using.** You can get the exact version by running `pulsar -v` in your terminal, or by starting Pulsar and running the `Application: About` command from the [Command Palette](https://pulsar-edit.dev/docs/launch-manual/sections/getting-started/#command-palette).
 * **Specify the name and version of the OS you're using.**
 
 ### Your First Code Contribution
@@ -175,14 +174,14 @@ Unsure where to begin contributing to Pulsar? You can start by looking through t
 
 Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
-If you want to read about using Pulsar or developing packages in Pulsar, the [Atom Flight Manual](https://flight-manual.atom.io) is free and available online. You can find the source to the manual in [pulsar-edit/flight-manual.atom.io](https://github.com/pulsar-edit/flight-manual.atom.io).
+If you want to read about using Pulsar or developing packages in Pulsar, the [Pulsar documentation](https://pulsar-edit.dev/docs/) is free and available online. You can find the source to the manual in [pulsar-edit/pulsar-edit.github.io](https://github.com/pulsar-edit/pulsar-edit.github.io).
 
 #### Local development
 
-Pulsar Core and all packages can be developed locally. For instructions on how to do this, see the following sections in the [Atom Flight Manual](https://flight-manual.atom.io):
+Pulsar Core and all packages can be developed locally. For instructions on how to do this, see the following sections in the [Pulsar documentation](https://pulsar-edit.dev/docs/):
 
-* [Hacking on Pulsar Core][hacking-on-pulsar-core]
-* [Contributing to Official Pulasr Packages][contributing-to-official-pulsar-packages]
+* [Hacking on Pulsar Core](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#hacking-on-the-core)
+* [Contributing to Official Pulsar Packages](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#contributing-to-official-pulsar-packages)
 
 ### Pull Requests
 
@@ -246,7 +245,7 @@ All JavaScript code is linted with [Prettier](https://prettier.io/).
 * Place class properties in the following order:
     * Class methods and properties (methods starting with `static`)
     * Instance methods and properties
-* [Avoid platform-dependent code](https://flight-manual.atom.io/hacking-atom/sections/cross-platform-compatibility/)
+* [Avoid platform-dependent code](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#cross-platform-compatibility)
 
 ### CoffeeScript Styleguide
 
@@ -278,7 +277,7 @@ All JavaScript code is linted with [Prettier](https://prettier.io/).
 * Place class properties in the following order:
     * Class methods and properties (methods starting with a `@`)
     * Instance methods and properties
-* [Avoid platform-dependent code](https://flight-manual.atom.io/hacking-atom/sections/cross-platform-compatibility/)
+* [Avoid platform-dependent code](https://pulsar-edit.dev/docs/launch-manual/sections/core-hacking/#cross-platform-compatibility)
 
 ### Specs Styleguide
 
@@ -360,7 +359,7 @@ Please open an issue on `pulsar-edit/pulsar` if you have suggestions for new lab
 | `windows` | [search][search-pulsar-repo-label-windows] | [search][search-pulsar-org-label-windows] | Related to Pulsar running on Windows. |
 | `linux` | [search][search-pulsar-repo-label-linux] | [search][search-pulsar-org-label-linux] | Related to Pulsar running on Linux. |
 | `mac` | [search][search-pulsar-repo-label-mac] | [search][search-pulsar-org-label-mac] | Related to Pulsar running on macOS. |
-| `documentation` | [search][search-pulsar-repo-label-documentation] | [search][search-pulsar-org-label-documentation] | Related to any type of documentation (e.g. [API documentation](https://atom.io/docs/api/latest/) and the [flight manual](https://flight-manual.atom.io/)). |
+| `documentation` | [search][search-pulsar-repo-label-documentation] | [search][search-pulsar-org-label-documentation] | Related to any type of documentation (e.g. [API documentation](https://atom.io/docs/api/latest/) and the [Pulsar documentation](https://pulsar-edit.dev/docs/)). |
 | `performance` | [search][search-pulsar-repo-label-performance] | [search][search-pulsar-org-label-performance] | Related to performance. |
 | `security` | [search][search-pulsar-repo-label-security] | [search][search-pulsar-org-label-security] | Related to security. |
 | `ui` | [search][search-pulsar-repo-label-ui] | [search][search-pulsar-org-label-ui] | Related to visual design. |
@@ -378,13 +377,13 @@ Please open an issue on `pulsar-edit/pulsar` if you have suggestions for new lab
 | --- | --- | --- | --- |
 | `editor-rendering` | [search][search-pulsar-repo-label-editor-rendering] | [search][search-pulsar-org-label-editor-rendering] | Related to language-independent aspects of rendering text (e.g. scrolling, soft wrap, and font rendering). |
 | `build-error` | [search][search-pulsar-repo-label-build-error] | [search][search-pulsar-org-label-build-error] | Related to problems with building Pulsar from source. |
-| `error-from-pathwatcher` | [search][search-pulsar-repo-label-error-from-pathwatcher] | [search][search-pulsar-org-label-error-from-pathwatcher] | Related to errors thrown by the [pathwatcher library](https://github.com/atom/node-pathwatcher). |
+| `error-from-pathwatcher` | [search][search-pulsar-repo-label-error-from-pathwatcher] | [search][search-pulsar-org-label-error-from-pathwatcher] | Related to errors thrown by the [pathwatcher library](https://github.com/pulsar-edit/node-pathwatcher). |
 | `error-from-save` | [search][search-pulsar-repo-label-error-from-save] | [search][search-pulsar-org-label-error-from-save] | Related to errors thrown when saving files. |
 | `error-from-open` | [search][search-pulsar-repo-label-error-from-open] | [search][search-pulsar-org-label-error-from-open] | Related to errors thrown when opening files. |
 | `installer` | [search][search-pulsar-repo-label-installer] | [search][search-pulsar-org-label-installer] | Related to the Pulsar installers for different OSes. |
 | `auto-updater` | [search][search-pulsar-repo-label-auto-updater] | [search][search-pulsar-org-label-auto-updater] | Related to the auto-updater for different OSes. |
 | `deprecation-help` | [search][search-pulsar-repo-label-deprecation-help] | [search][search-pulsar-org-label-deprecation-help] | Issues for helping package authors remove usage of deprecated APIs in packages. |
-| `electron` | [search][search-pulsar-repo-label-electron] | [search][search-pulsar-org-label-electron] | Issues that require changes to [Electron](https://electron.atom.io) to fix or implement. |
+| `electron` | [search][search-pulsar-repo-label-electron] | [search][search-pulsar-org-label-electron] | Issues that require changes to [Electron](https://www.electronjs.org/) to fix or implement. |
 
 #### Pull Request Labels
 
@@ -487,5 +486,3 @@ Please open an issue on `pulsar-edit/pulsar` if you have suggestions for new lab
 
 [beginner]:https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Abeginner+label%3Ahelp-wanted+user%3Apulsar-edit+sort%3Acomments-desc
 [help-wanted]:https://github.com/search?q=is%3Aopen+is%3Aissue+label%3Ahelp-wanted+user%3Apulsar-edit+sort%3Acomments-desc+-label%3Abeginner
-[contributing-to-official-pulsar-packages]:https://flight-manual.atom.io/hacking-atom/sections/contributing-to-official-atom-packages/
-[hacking-on-pulsar-core]: https://flight-manual.atom.io/hacking-atom/sections/hacking-on-atom-core/
