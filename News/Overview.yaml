@@ -1,11 +1,11 @@
 
-# 
+#
 #   News Articles
 #   =============
-# 
+#
 #   Structure:
 #   ----------
-# 
+#
 #   -   title : <Title>
 #
 #       lines : |
@@ -17,37 +17,31 @@
 #
 #   Warning:
 #   --------
-#   
+#
 #   Lines shouldn't be longer than 40 characters.
 #
 #######|<-------------------------------------->| Stop Here
 #
 
--   title : 🗃 [Backend Feature]
+-   title : 🎉 Pulsar Updates
 
     lines : |
-        Allow package authors to transfer 
-        their ownership to another user.
-        
+        Pulsar v1.101.0-beta is out now!
+
     links :
-        Backend Feature : https://github.com/orgs/pulsar-edit/projects/2?pane=issue&itemId=17528685
+        Backend Feature : https://github.com/pulsar-edit/pulsar/releases/tag/v1.101.0-beta
 
 
--   title : 🔬 Testing2
-
-    lines : |
-        This is a test message!
-        
-        
--   title : 🔬 Testing
+-   title : [Socials]
 
     lines : |
-        This is a test message!
-        
+        Join Us on Discord!
 
--   title : 🎅 Merry Christmas
+    links:
+      Socials: https://discord.gg/7aEbB9dGRT
+
+
+-   title : 🎅 Merry Christmas! Happy New/Lunar Year!
 
     lines : |
-        from all of us here at Pulsar edit!
-        We wish everyone a great new year!
-        
+        From all of us here at Pulsar, Happy Holidays!

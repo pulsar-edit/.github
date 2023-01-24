@@ -6,23 +6,19 @@ on:
     workflow_dispatch:
 
     pull_request:
-
-        branches : [ main ]
-        
         paths :
-            
             -   'News/**'
 
     push:
 
         branches : [ main ]
-        
+
         paths :
-            
+
             -   'News/**'
 
 
-                    
+
 concurrency:
 
     cancel-in-progress : true
@@ -36,19 +32,21 @@ jobs :
 
         steps :
 
-            -   name : Checkout
-                uses : actions/checkout@v3
+            -   name: Checkout
+                uses: actions/checkout@v3
+                with:
+                  ref: ${{ github.ref_name }}
 
             -   name : Run News Builder
                 uses : MarkedDown/News@1.0.0
                 with :
-                    
+
                     config : .github/.News.yml
-                
+
             -   name : Commit Changes
                 uses : EndBug/add-and-commit@v9
                 with :
-                    
+
                     default_author : github_actor
                     message : Updated News Section
                     add : profile/README.md

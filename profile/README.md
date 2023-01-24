@@ -12,7 +12,7 @@ Pulsar aims to not only reach feature parity with the original Atom, but to brin
 
 With many new features on the roadmap, once Pulsar is stable, it will be a true, Community-Based, Hackable, Text Editor.
 
-For where to contribute or where our progess is right now there are these as starting points that we recommend:
+For where to contribute or where our progress is right now there are these as starting points that we recommend:
 
 * [Frequently Asked Questions](https://github.com/pulsar-edit/.github/blob/main/FAQ.md)
 * [Contributing Right Now](https://github.com/pulsar-edit/.github/blob/main/project-birth/CONTRIBUTING-DURING-START.md)
@@ -37,13 +37,13 @@ For other support feel free to join us here:
 
 
 <!---------------------------------- 🗞 News ---------------------------------->
- 
+
 <pre align = center>
- 
+
 <kbd align = left> <br>   <b>🗃 <a href = 'https://github.com/orgs/pulsar-edit/projects/2?pane=issue&itemId=17528685'>Backend Feature</a></b><br>   <br>   Allow package authors to transfer<br>   their ownership to another user.<br>   <br>                                                                                </kbd>     <kbd align = left> <br>   <b>🔬 Testing2</b><br>   <br>   This is a test message!<br>   <br>                                                                                </kbd><br><br><kbd align = left> <br>   <b>🔬 Testing</b><br>   <br>   This is a test message!<br>   <br>                                                                                </kbd>     <kbd align = left> <br>   <b>🎅 Merry Christmas</b><br>   <br>   from all of us here at Pulsar edit!<br>   We wish everyone a great new year!<br>   <br>                                                                                </kbd>
- 
+
 </pre>
- 
+
 <!---------------------------------- 🗞 News ---------------------------------->
 
 
