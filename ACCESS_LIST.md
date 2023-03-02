@@ -17,6 +17,7 @@ This document will serve the purpose of clearly defining who has access to what.
   - [GitHub](#github)
   - [Cirrus Ci](#cirrus-ci)
   - [Codacy](#codacy)
+  - [Codecov](#codecov)
   - [Crowdin](#crowdin)
   - [Open Collective](#open-collective)
   - [Infisical](#infisical)
@@ -34,6 +35,7 @@ This document will serve the purpose of clearly defining who has access to what.
   - [Reddit](#reddit)
   - [Discord](#discord)
 * [Other](#other)
+  - [Codeberg](#codeberg)
 
 # Core
 
@@ -57,6 +59,12 @@ The permissions of the `pulsar` repository on GitHub should sync to Cirrus CI.
 The permissions of the `pulsar` repository on GitHub should sync to Codacy.
 
 Except when Codacy is being used on another one of our repos than whatever team permissions apply to that repo will sync.
+
+## Codecov
+
+The permissions of the `pulsar` repository on GitHub should sync to Codecov.
+
+Expect when Codecov is being used on another on of our repos, than whatever team permissions apply to that repo will sync.
 
 ## Crowdin
 
@@ -122,6 +130,7 @@ Such as the package backend, frontend, microservices, or DNS changes.
 * Owner: [@kaosine]
 * Member: [@confused-Techie]
 
+## Coveralls
 # Social
 
 Administrative actions relating to our social media accounts or presence.
@@ -156,3 +165,7 @@ Administrative actions relating to our social media accounts or presence.
 
 Administrative actions into services that do not fit nicely elsewhere.
 Generally most other applications can be added to [core](#core) if they are intended to be used for such.
+
+## Codeberg
+
+* [@kaosine]
