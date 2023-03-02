@@ -77,7 +77,7 @@ These roles are:
 - Windows
 
 ##### Other roles
-- Community Packages - join if you're into making packages for us
+- Community Packages - join if you're into making packages for the editor
 - Updates - Join this if you're interested in receiving updates as they come out
 
 ## Team member & role additions/removals
