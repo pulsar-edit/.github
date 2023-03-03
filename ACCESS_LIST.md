@@ -130,7 +130,6 @@ Such as the package backend, frontend, microservices, or DNS changes.
 * Owner: [@kaosine]
 * Member: [@confused-Techie]
 
-## Coveralls
 # Social
 
 Administrative actions relating to our social media accounts or presence.
