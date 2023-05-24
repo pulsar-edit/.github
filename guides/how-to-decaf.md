@@ -33,7 +33,7 @@ Secondly, here is a general recommendation when choosing what to decaf:
 
 With those rules/recommendations out of the way, below is the general guide that should be followed:
 
-1. As you might expect, decide what you are going to decaffeinate. To help make everyone's lives easier, you should ensure the file you are decaffing doesn't have any open PRs against it, or be at risk of receiving major changes anytime soon. If you aren't sure of this, feel free to ask the Pulsar maintainers.
+1. As you might expect, decide what you are going to decaffeinate. To help make everyone's lives easier, you should ensure the file you are decaffing doesn't have any open PRs against it, or that it is at risk of receiving major changes anytime soon. If you aren't sure of this, feel free to ask the Pulsar maintainers.
 
 2. Once you've decided what repo/package you are going to decaf, then decide if you want to decaf the specs or source files.
 
