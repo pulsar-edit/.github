@@ -31,7 +31,7 @@ Secondly, here is a general recommendation when choosing what to decaf:
 
   * When you decide to decaf a repo/package, it's a good idea to decaf the entirety of what you are working on. Decaffeinating only a single spec file or single source file doesn't do us much good, and in many cases may be totally invalid on its own, so it's highly recommended to, within a single PR, decaf the entirety of the source or spec files.
 
-With those rules/recommendations out of the way, following below is the general guide that should be followed:
+With those rules/recommendations out of the way, below is the general guide that should be followed:
 
 1. As you might expect, decide what you are going to decaffeinate. To help make everyone's lives easier, you should ensure the file you are decaffing doesn't have any open PRs against it, or be at risk of receiving major changes anytime soon. If you aren't sure of this, feel free to ask the Pulsar maintainers.
 
