@@ -95,3 +95,22 @@ Example on macOS:
 ```zsh
 shasum -a 256 * | tee SHA256SUMS.txt
 ```
+
+# Release Day Template
+
+On release day it may be helpful to create a new issue with the following template. Which allows contributors to communicate in a central location about executing the release, and allows easy communication about the steps of the release that are completed.
+
+```markdown
+# Regular Release
+
+- [ ] ChangeLog updated (`CHANGELOG.md` and `welcome` package)
+- [ ] Blurb Text Complete (Comment Below)
+- [ ] Version Bump PR Created
+- [ ] Binaries Uploaded to GitHub (Including renamed binaries, and SHASUM file)
+- [ ] Release Posted! 🎊
+- [ ] Website Links updated
+- [ ] Blog Post
+- [ ] Discord Announcement
+- [ ] Reddit Announcement
+- [ ] Mastodon Announcement
+```
