@@ -1,15 +1,17 @@
+# Release Checklist for Pulsar
+
 A checklist for releases. This is for the "Regular" releases. (Rolling releases happen automatically.)
 
-# Inputs (Preparation Tasks):
+## Inputs (Preparation Tasks):
 
 - Candidate commit for the release, with the desired state of the app, on `master` branch (make sure the app is actually ready for release)
 - Changelog up to date with changes since last release
 - Blurb text (some flavor text and info about what happened this release, for GitHub release and blog post)
 
-# Outputs:
+## Outputs:
 
-- Version bump PR
 - Changelog (within the welcome package + GitHub Release and blog post)
+- Version bump PR
 - GitHub Release
   - With binaries
 - Update download links on website
@@ -19,7 +21,7 @@ A checklist for releases. This is for the "Regular" releases. (Rolling releases 
   - Reddit post
   - Mastodon post
 
-# Steps:
+## Steps:
 
 Note: after the "Changelog" steps are done, the remaining steps can be done in whatever order.
 
@@ -60,9 +62,9 @@ Note: after the "Changelog" steps are done, the remaining steps can be done in w
   - Reddit: https://old.reddit.com/r/pulsaredit/
   - Discord announcement: https://discord.com/channels/992103415163396136/992231561724436591
 
-# How to...
+## How to...
 
-## How to rename binaries
+### How to rename binaries
  
 Here is the naming scheme we have been using, which was initially suggested by @confused-techie. Copy-pasted from here: https://discord.com/channels/992103415163396136/1064364297033093150/1064393610910511197
 
@@ -86,7 +88,7 @@ If you like, you can copy binaries into a folder one platform at a time, and suc
 
 (Note: There has been an attempt at a consensus naming scheme, but it is stalled at the moment this is being written: https://github.com/orgs/pulsar-edit/discussions/134).
 
-## How to make SHA256SUMS.txt
+### How to make SHA256SUMS.txt
 
 Just run a shasum program set to SHA256 algorithm on all files in the dir with the renamed binaries, redirecting the output of this shasum command to a file...
 
@@ -96,7 +98,7 @@ Example on macOS:
 shasum -a 256 * | tee SHA256SUMS.txt
 ```
 
-# Release Day Template
+## Release Day Template
 
 On release day it may be helpful to create a new issue with the following template. Which allows contributors to communicate in a central location about executing the release, and allows easy communication about the steps of the release that are completed.
 
