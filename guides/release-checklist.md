@@ -54,6 +54,7 @@ Note: after the "Changelog" steps are done, the remaining steps can be done in w
 - Update the download links on the website
   - This will at least need updates for the new version number.
   - Recommended to verify the exact filenames of all binaries, in case some of them may have changed, such as if new or different formats were built this release. Adjust the download page as-needed if new/different formats were built than last time.
+  - Update the `Current version is...` value to the new version.
   - Can optionally be done in the same PR as the blog post (see "blog post" steps just above)
   - Example PR: https://github.com/pulsar-edit/pulsar-edit.github.io/commit/9f2c3e611756ab9d17ab74fb764be584532439db#diff-29528fb31258a56dda5f112cb5780226ebbf8016cadbdeb4948ad84b89ccf533
 
