@@ -34,8 +34,11 @@ Note: after the "Changelog" steps are done, the remaining steps can be done in w
 
 - Do the version bump pull request.
   - (Open this once fairly confident the app is ready to roll out, after the in-app Changelog PR is merged -- make sure to include any last-minute changes. If more last-minute changes happen, update the PR and potentially the tag, see next bullet point.)
-  - This should PR be opened from a branch up to date with `master`, plus one commit which changes the version in package.json to the version you're going to release.
+  - This should PR be opened from a branch up to date with `master`, plus one commit which changes the version in package.json to the version you're going to release. (It is recommended that the name of this branch be something unique compared to the tag name for the release (see next bullet point below), to avoid conflicts in git. Such as this example branch name: `v1.107.0-release`. Adding `-release` distinguishes (disambiguates) the branch name from the tag name, making the repo easier to work with.)
+    - Example commands to create a new branch based off of upstream `master` branch: `git remote update` (update your local knowledge/data for the remote repos) `git switch -c v1.107.0-release origin/master` (create and switch to (in other words, "check out") a branch called `v1.107.0-release` that is up to date with `master` branch at the upstream repo.)
+    - Edit the version string in `package.json` and commit that change. The new version string should end in the desired number, with no `-dev` at the end. Such as: `1.107.1`.
     - Tag that "version update" commit with the tag name starting with v and then the version number of the release. (For example v1.103.0)
+      - Example commands: `git tag v1.106.0` and then `git push origin v1.106.0`
   - Let CI run, grab the generated binaries from Cirrus, since we're going to upload these to GitHub Releases as well.
   - Before actually merging this PR, change the version number to end with -dev again, for the sake of the Rolling releases that will build later on `master` branch.
   - Example PR: https://github.com/pulsar-edit/pulsar/pull/430
