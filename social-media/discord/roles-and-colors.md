@@ -3,7 +3,7 @@
 This document serves as a way to group our roles into a logical manner with color designations so things fit better for accessibility reasons. It is part of what goes into `rules-info-channel.md` that is also in this folder. 
 
 Admins and support:
-- Team - knowledgeable people in the community (#color-here)
+- Team - knowledgeable people in the community who have shown they have the projects best interests in mind (#color-here)
 - Admin - those who run and execute decisions in the community (#color-here)
 - Mod - those who moderate the community in some way or another (#color-here)
 
