@@ -10,7 +10,7 @@ Admins and support:
 Organizational:
 - Documentation - for our documentation. This relates to our site and all the documents we handle between it and the pulsar-edit/.github repo (#color-here)
 - Backend - API and server related development (#color-here)
-- Developer - if you're not sure what you want to contribute as here. (#color-here)
+- Developer - contributes where they can, not based on topic but availability (#color-here)
 - Core - Works on the core editor and all the things that make it tick. (#color-here)
 - Packages - our core packages (#color-here)
 - Updates - when we post updates you'll get a notification. Consider this ⁠pulsar-announcements and eventually ⁠community-updates (#color-here)
