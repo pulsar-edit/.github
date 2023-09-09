@@ -42,4 +42,4 @@ OS(for support and supporting others):
 
 # Invite
 
-Invite link to the server(due to change when we are able to get a vanity link) https://discord.gg/7aEbB9dGRT
+Invite link to the server: https://discord.gg/7aEbB9dGRT
