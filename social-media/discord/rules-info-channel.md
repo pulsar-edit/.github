@@ -19,26 +19,7 @@ If you are a new contributor to Pulsar and want to know how to help, feel free t
 
 # Roles
 
-Once you're done here please make your way over to ⁠role-select  and grab some roles. It helps us know who is interested and helping and who we can ping for various things that come up here as we form teams. Especially if we're not prompt enough to add you to the proper team on github. The description of these are below:
-
-These are the roles for the server in case you want to join them:
-Organizational:
-- Documentation - for our documentation. This relates to our site and all the documents we handle between it and the pulsar-edit/.github repo
-- Backend - API and server related development
-- Developer - if you're not sure what you want to contribute too or just want to contribute wherever.
-- Core - Works on the core editor and all the things that make it tick.
-- Packages - our core packages
-
-Community Related:
-- Team - these people have contributed a significant amount and have generally been a help in the community
-- Admin/Mod - these people are admins and mods bc of their help and demonstratable necessity for their place as someone to help with moderation and various other things within the community
-- Updates - when we post updates you'll get a notification. Consider this ⁠pulsar-announcements and eventually ⁠community-updates
-- Community - if you develop a package on your own outside the org and submit it grab this one! We'll try to post updates about development on this soon as this is a upcoming feature in the v2 backend!
-
-OS(for support and supporting others):
-- Windows
-- Linux
-- MacOS
+<!-- Contents for this part are in the roles-and-colors file in this directory. Please refer to that for the content of this section when pasting into discord or elsewhere. -->
 
 # Invite
 
