@@ -2,10 +2,12 @@
 
 This document serves as a way to group our roles into a logical manner with color designations so things fit better for accessibility reasons. It is part of what goes into `rules-info-channel.md` that is also in this folder. 
 
+After reading up on these, head to #role-select and pick up what roles suit you. We're glad to have you here and look forward to your contributions or any support we can provide you!
+
 Admins and support:
-- Team - knowledgeable people in the community who have shown they have the projects best interests in mind (#color-here)
-- Admin - those who run and execute decisions in the community (#color-here)
-- Mod - those who moderate the community in some way or another (#color-here)
+- Team - knowledgeable people in the community who have shown they have the projects best interests in mind. they can handle most general questions, however recommend pinging the specific organizational team for your question. (#color-here)
+- Admin (discord) - those who run and execute decisions in the community (#color-here)
+- Mod (discord) - those who moderate the community in some way or another (#color-here)
 
 Organizational:
 - Documentation - for our documentation. This relates to our site and all the documents we handle between it and the pulsar-edit/.github repo (#color-here)
