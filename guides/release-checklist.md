@@ -15,6 +15,7 @@ A checklist for releases. This is for the "Regular" releases. (Rolling releases 
 - GitHub Release
   - With binaries
 - Update download links on website
+- Pulsar Chocolatey Release
 - Blog Post
 - Social posts
   - Discord announcement
@@ -47,13 +48,20 @@ Note: after the "Changelog" steps are done, the remaining steps can be done in w
   - Can start drafting this any time.
   - Recommended to only have one person editing it at once, to avoid overwrites and lost edits
   - Once we have binaries generated (see the "pull request" steps above), someone can start downloading these and re-uploading them to GitHub Releases under the draft release
-  - Post the GitHub release! 🎉 
+  - Post the GitHub release! 🎉
   - Example release: https://github.com/pulsar-edit/pulsar/releases
 
 - Draft and post the blog post, suggested to be based on the blurb text plus the changelog.
   - See past blog post PRs for examples
   - Example PR: https://github.com/pulsar-edit/pulsar-edit.github.io/pull/204
 
+- Release the new Version on Chocolatey (More Details on the [`pulsar-edit/pulsar-chocolatey` Readme](https://github.com/pulsar-edit/pulsar-chocolatey#automated-releases))
+  - Create an Issue on `pulsar-edit/pulsar-chocolatey`, where the title is the new version (e.g. `1.108.0`)
+  - Once this issue is posted, add the label `release`.
+  - A PR will be automatically created, with the updated package information.
+  - Let tests run, view the test summary page to confirm the version that's been installed, via the changes.
+  - If tests are successful merge the pull request
+  - Trigger the GitHub Action `Chocolatey Publish Pulsar Package` manually to publish the new version
 - Update the download links on the website
   - This will at least need updates for the new version number.
   - Recommended to verify the exact filenames of all binaries, in case some of them may have changed, such as if new or different formats were built this release. Adjust the download page as-needed if new/different formats were built than last time.
@@ -69,7 +77,7 @@ Note: after the "Changelog" steps are done, the remaining steps can be done in w
 ## How to...
 
 ### How to rename binaries
- 
+
 Here is the naming scheme we have been using, which was initially suggested by @confused-techie. Copy-pasted from here: https://discord.com/channels/992103415163396136/1064364297033093150/1064393610910511197
 
 Add prefixes to the binary names output by electron-builder in Cirrus, like so:
@@ -114,6 +122,7 @@ On release day it may be helpful to create a new issue with the following templa
 - [ ] Version Bump PR Created
 - [ ] Binaries Uploaded to GitHub (Including renamed binaries, and SHASUM file)
 - [ ] Release Posted! 🎊
+- [ ] Update Chocolatey Release
 - [ ] Website Links updated
 - [ ] Blog Post
 - [ ] Discord Announcement
