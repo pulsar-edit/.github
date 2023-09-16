@@ -21,6 +21,7 @@ A checklist for releases. This is for the "Regular" releases. (Rolling releases 
   - Discord announcement
   - Reddit post
   - Mastodon post
+  - Lemmy post
 
 ## Steps:
 
