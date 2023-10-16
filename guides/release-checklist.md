@@ -128,4 +128,5 @@ On release day it may be helpful to create a new issue with the following templa
 - [ ] Discord Announcement
 - [ ] Reddit Announcement
 - [ ] Mastodon Announcement
+- [ ] Lemmy Announcement
 ```
