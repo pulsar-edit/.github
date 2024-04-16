@@ -79,6 +79,10 @@ Note: after the "Changelog" steps are done, the remaining steps can be done in w
 
 ### How to rename binaries
 
+_\[NOTE: Feel free to skip this section. This section is now automated by a script in CI. This section of the guide remains as a reference "for reference's sake" -- if you want to know how it's done manually, or context for how this naming convention came about, feel free to read, otherwise know it is handled automatically in CI._
+
+_See the script: https://github.com/pulsar-edit/pulsar/blob/master/script/rename.js, and the PR that introduced it, for explanation/context: https://github.com/pulsar-edit/pulsar/pull/675. Original section continues below:\]_
+
 Here is the naming scheme we have been using, which was initially suggested by @confused-techie. Copy-pasted from here: https://discord.com/channels/992103415163396136/1064364297033093150/1064393610910511197
 
 Add prefixes to the binary names output by electron-builder in Cirrus, like so:
