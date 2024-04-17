@@ -115,6 +115,12 @@ Example on macOS:
 shasum -a 256 * | tee SHA256SUMS.txt
 ```
 
+Example on Linux (Ubuntu):
+
+```bash
+sha256sum * | tee SHA256SUMS.txt
+```
+
 ## Release Day Template
 
 On release day it may be helpful to create a new issue with the following template. Which allows contributors to communicate in a central location about executing the release, and allows easy communication about the steps of the release that are completed.
