@@ -58,7 +58,7 @@ body:
     label: Which CPU architecture are you running this on?
     options:
       - x86_64/AMD64
-      - Apple M1/M2
+      - Apple M-series
       - ARM64/AArch64
   validations:
     required: false
