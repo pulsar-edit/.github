@@ -15,6 +15,16 @@ It may be worth noting that originally our nameserver was with Google Domains, b
 
 Currently, confused-Techie is the only person with access to this resource.
 
+## NPM | pulsar-edit Organization
+
+### Description
+
+The NPM pulsar-edit organization is obviously hosted by NPM but controls what accounts have the ability to publish to NPM under our organization. As any accounts with access can have permission to publish under the organization.
+
+### Access
+
+Currently, confused-Techie, Meadowsys, and kaosine all have access to this resource, although to varying degrees.
+
 ## Database | Pulsar Package Registry
 
 ### Description
