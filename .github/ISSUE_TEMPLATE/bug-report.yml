@@ -8,15 +8,15 @@ body:
     label: Thanks in advance for your bug report!
     description: "Please make sure you have done the following:"
     options:
-      - label: Have you reproduced issue in [safe mode](https://pulsar-edit.dev/docs/atom-archive/faq/sections/what-does-safe-mode-do.html)?
+      - label: Checked your issue is not in our list of [common issues](https://docs.pulsar-edit.dev/troubleshooting-pulsar/common-issues)?
         required: true
-      - label: Have you used the [debugging guide](https://pulsar-edit.dev/docs/atom-archive/hacking-atom/#debugging) to try to resolve the issue?
+      - label: Reproduced issue in [safe mode](https://docs.pulsar-edit.dev/troubleshooting-pulsar/using-safe-mode)?
         required: true
-      - label: "Have you checked our [FAQs](https://pulsar-edit.dev/docs/launch-manual/sections/faq/) to make sure your question isn't answered there?"
+      - label: Used the [debugging guide](https://docs.pulsar-edit.dev/troubleshooting-pulsar) to try to resolve the issue?
         required: true
-      - label: Have you checked to make sure your issue does not already [exist](https://github.com/issues?q=is%3Aissue+user%3Apulsar-edit+is%3Aopen)?
+      - label: Checked to make sure your issue does not already [exist](https://github.com/issues?q=sort%3Aupdated-desc+is%3Aissue+user%3Apulsar-edit)?
         required: true
-      - label: Have you checked you are on the latest release of Pulsar?
+      - label: Checked you are on the [latest release](https://pulsar-edit.dev/download/#latest-version)?
         required: true
 - type: textarea
   id: what-happened
@@ -52,6 +52,13 @@ body:
     placeholder: OS version, distribution etc.
   validations:
     required: true
+- type: input
+  id: package-type
+  attributes:
+    label: How did you install Pulsar? 
+    placeholder: Website download (deb, rpm, appimage etc.), package repository etc.
+  validations:
+    required: false
 - type: dropdown
   id: sys-info
   attributes:
