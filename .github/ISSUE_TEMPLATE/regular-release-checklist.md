@@ -17,6 +17,8 @@ assignees: ''
 - [ ] Binaries Uploaded to GitHub (Including renamed binaries, and SHASUM file)
 - [ ] Release Posted! 🎊
 - [ ] Update Chocolatey Release
+- [ ] Did the API change? If so, change `@pulsar-edit/types` and do a release with an equivalent major and minor version (incrementing the patch version as needed, but it should usually be `0`)
+- [ ] Did the OS/version support change? If so, address it as part of the automated website PR
 - [ ] Website Links updated
 - [ ] Blog Post
 - [ ] Discord Announcement
